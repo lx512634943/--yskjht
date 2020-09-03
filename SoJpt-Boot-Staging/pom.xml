@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.1.4.RELEASE</version>
+    <relativePath /> <!-- lookup parent from repository -->
+  </parent>
+  <groupId>com.sojpt</groupId>
+  <artifactId>SoJpt-Boot-Staging</artifactId>
+  <version>1.0</version>
+  <name>SoJpt-springboot</name>
+  <description>Demo project for Spring Boot</description>
+
+  <properties>
+    <java.version>1.8</java.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-tomcat</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-undertow</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-devtools</artifactId>
+      <optional>true</optional>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.gitee.sohnny</groupId>
+      <artifactId>sojpt-boot-spring-boot-starter</artifactId>
+      <version>2.5.4-3.8</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>druid-spring-boot-starter</artifactId>
+      <version>1.1.16</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-email</artifactId>
+      <version>1.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.44</version>
+    </dependency>
+    <dependency>
+      <groupId>com.jfinal</groupId>
+      <artifactId>cos</artifactId>
+      <version>2017.5</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>3.17</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>3.17</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml-schemas</artifactId>
+      <version>3.17</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-excelant -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-excelant</artifactId>
+      <version>3.17</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-examples -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-examples</artifactId>
+      <version>3.17</version>
+    </dependency>
+    <!-- javamelody-core -->
+    <dependency>
+      <groupId>net.bull.javamelody</groupId>
+      <artifactId>javamelody-spring-boot-starter</artifactId>
+      <version>1.77.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-scratchpad -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-scratchpad</artifactId>
+      <version>3.17</version>
+    </dependency>
+
+    <dependency>
+      <groupId>net.sourceforge.jexcelapi</groupId>
+      <artifactId>jxl</artifactId>
+      <version>2.6.12</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.3.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.google.zxing/javase -->
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>javase</artifactId>
+      <version>3.3.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.5</version>
+    </dependency>
+
+    <dependency>
+      <groupId>it.sauronsoftware.cron4j</groupId>
+      <artifactId>cron4j</artifactId>
+      <version>2.2.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.jfinal</groupId>
+      <artifactId>jfinal-ext2</artifactId>
+      <version>2.0.5</version>
+    </dependency>
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+      </dependency>
+  </dependencies>
+
+ <!-- Package as an executable jar -->
+  <build>
+    <plugins>
+      <!--打包jar -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <!--不打包资源文件 -->
+          <excludes>
+            <exclude>**/*.sql</exclude>
+            <exclude>*.txt</exclude>
+            <exclude>*.xml</exclude>
+            <exclude>*.properties</exclude>
+          </excludes>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <!--MANIFEST.MF 中 Class-Path 加入前缀 -->
+              <classpathPrefix>../lib/</classpathPrefix>
+              <!--jar包不包含唯一版本标识 -->
+              <useUniqueVersions>false</useUniqueVersions>
+            </manifest>
+            <manifestEntries>
+              <!--MANIFEST.MF 中 Class-Path 加入资源文件目录 -->
+              <Class-Path>../config/</Class-Path>
+            </manifestEntries>
+          </archive>
+        </configuration>
+      </plugin>
+
+      <!--spring boot repackage，依赖 maven-jar-plugin 打包的jar包 重新打包成 spring 
+        boot 的jar包 -->
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+          <!--重写包含依赖，包含不存在的依赖，jar里没有pom里的依赖 -->
+          <includes>
+            <include>
+              <groupId>null</groupId>
+              <artifactId>null</artifactId>
+            </include>
+          </includes>
+          <layout>ZIP</layout>
+          <!--使用外部配置文件，jar包里没有资源文件 -->
+          <addResources>true</addResources>
+          <outputDirectory>${project.build.directory}</outputDirectory>
+        </configuration>
+      </plugin>
+      <!-- 使用 mvn clean package 打包 更多配置可参考官司方文档：http://maven.apache.org/plugins/maven-assembly-plugin/single-mojo.html -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>make-assembly</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <configuration>
+              <!-- 指向打包描述文件 package.xml -->
+              <descriptors>
+                <descriptor>package.xml</descriptor>
+              </descriptors>
+              <!-- 打包结果输出的基础目录 -->
+              <outputDirectory>${project.build.directory}/</outputDirectory>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+
+  </build>
+
+</project>
