@@ -57,4 +57,12 @@ public abstract class BaseBusiness<M extends BaseBusiness<M>> extends Model<M> i
 		return getStr("picture");
 	}
 
+	public void setBusinesstitle(java.lang.String businesstitle) {
+		set("businesstitle", businesstitle);
+	}
+	
+	public java.lang.String getBusinesstitle() {
+		return getStr("businesstitle");
+	}
+
 }

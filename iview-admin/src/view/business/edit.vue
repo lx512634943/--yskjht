@@ -7,24 +7,32 @@
     @input="$emit('input', $event)"
   >
     <Form
-      ref="formBusinessbyid"
-      :model="formBusinessbyid"
+      ref="formBusiness"
+      :model="formBusiness"
       :rules="ruleValidate"
       label-position="right"
       :label-width="80"
     >
-
-      <FormItem label="请选择" :label-width="100" prop="pkid" >
-        <Select v-model="formBusinessbyid.businessId" style="width:200px" disabled>
-          <Option v-for="item in cityList" :value="item.id" :key="item.id">{{ item.name }}</Option>
-        </Select>
+      <FormItem label="项目名称" :label-width="100" prop="name">
+        <Input type="text" v-model="formBusiness.name" placeholder="伙伴名称"/>
       </FormItem>
-      <FormItem label="合作伙伴封面" prop="picture" :label-width="100">
-        <div class="demo-upload-list" v-if="formBusinessbyid.picture">
-          <template v-if="formBusinessbyid.picture">
-            <img :src="getImageUrl(formBusinessbyid.picture)" >
+
+      <FormItem label="业务详情" :label-width="100" prop="title">
+        <Input type="text" v-model="formBusiness.title" placeholder="业务详情2"/>
+      </FormItem>
+      <FormItem label="业务详情2" :label-width="100" prop="titles">
+        <Input type="text" v-model="formBusiness.titles" placeholder="业务详情2"/>
+      </FormItem>
+      <FormItem label="悬浮业务详情" :label-width="100" prop="businessBytitle">
+        <Input type="textarea" v-model="formBusiness.businessBytitle" placeholder="领用详情"  style="width:200px"/>
+      </FormItem>
+
+      <FormItem label="项目案例图" prop="picture" :label-width="100">
+        <div class="demo-upload-list" v-if="formBusiness.picture">
+          <template v-if="formBusiness.picture">
+            <img :src="getImageUrl(formBusiness.picture)" >
             <div class="demo-upload-list-cover">
-              <Icon type="ios-eye-outline" @click.native="handleView(formBusinessbyid.picture)" ></Icon>
+              <Icon type="ios-eye-outline" @click.native="handleView(formBusiness.picture)" ></Icon>
               <Icon type="ios-trash-outline" @click.native="handleRemove()"></Icon>
             </div>
           </template>
@@ -41,8 +49,8 @@
           multiple
           type="drag"
           :action="baseURL"
-          style="display: inline-block;width:58px;" v-if="!this.formBusinessbyid.picture">
-          <div style="width: 58px;height:57px;line-height: 58px;" v-if="!this.formBusinessbyid.picture">
+          style="display: inline-block;width:58px;" v-if="!this.formBusiness.picture">
+          <div style="width: 58px;height:57px;line-height: 58px;" v-if="!this.formBusiness.picture">
             <Icon type="ios-camera" size="20"></Icon>
           </div>
         </Upload>
@@ -51,25 +59,30 @@
         <img :src=" getImageUrl(imageUrl)" v-if="visible" style="width: 100%;height:200px;">
       </Modal>
 
+      <FormItem label="项目具体详情" :label-width="100" prop="businesstitle">
+        <rich-text style="margin-bottom: 5%" :value="formBusiness.businesstitle"  @on-change="richTextChange($event)"></rich-text>
+      </FormItem>
+
       <FormItem>
-        <Button type="primary" @click="handleSubmit('formBusinessbyid')">提交</Button>
-        <Button @click="handleReset('formBusinessbyid')" style="margin-left: 8px">重置</Button>
+        <Button type="primary" @click="handleSubmit('formBusiness')">提交</Button>
+        <Button @click="handleReset('formBusiness')" style="margin-left: 8px">重置</Button>
       </FormItem>
     </Form>
   </Modal>
 </template>
 <script>
-  import { update,delImage,list1 } from '@/api/businessbyid'
+  import { update ,delImage } from '@/api/business'
   import { createModelObj, coverProps, coverFormProps } from '@/libs/util'
-
+  import richText from "../richText/richText";
   export default {
     name: 'Edit',
+    components: {richText},
     props: {
       value: {
         type: Boolean,
         default: false
       },
-      businessbyid: {
+      business: {
         type: Object,
         default: null
       }
@@ -78,11 +91,14 @@
       return {
         visible: false,
         imageUrl:'',
-        cityList:[],
-        formBusinessbyid: {
+        formBusiness: {
           id:'',
+          name:'',
+          title:'',
+          titles:'',
+          businessBytitle:'',
           picture:'',
-          businessId:''
+          businesstitle:''
         },
         ruleValidate: {
         }
@@ -94,6 +110,9 @@
       }
     },
     methods: {
+      richTextChange(res){
+        this.formBusiness.businesstitle = res;
+      },
       handleFormatError (file) {
         this.spinShow = false
         this.$Notice.warning({
@@ -117,7 +136,7 @@
 
       handleSuccess (res, file) {
         this.spinShow = false
-        this.formBusinessbyid.picture = res.filePath
+        this.formBusiness.picture = res.filePath
       },
       handleView (imgUrl) {
         this.imageUrl = imgUrl
@@ -125,13 +144,13 @@
       },
       handleRemove () {
         this.spinShow = true
-        let url = this.formBusinessbyid.picture
+        let url = this.formBusiness.picture
         delImage({'url': url}).then(res => {
           this.spinShow = false
-          this.formBusinessbyid.picture = ''
+          this.formBusiness.picture = ''
         })
-
       },
+
       getImageUrl (url) {
         return this.$config.urlPath + url
       },
@@ -139,10 +158,10 @@
         this.$refs[name].validate(valid => {
           if (valid) {
             update(
-              Object.assign({}, createModelObj(this.formBusinessbyid, 'businessbyid'))
+              Object.assign({}, createModelObj(this.formBusiness, 'business'))
             ).then(res => {
               if (res) {
-                this.$emit('updateRow', coverProps(this.businessbyid, this.formBusinessbyid))
+                this.$emit('updateRow', coverProps(this.business, this.formBusiness))
                 this.$emit('input', false)
                 this.handleReset(name)
               }
@@ -154,27 +173,13 @@
       },
       handleReset (name) {
         this.$refs[name].resetFields()
-      },
-      initData () {
-
-        list1().then(
-          res => {
-            this.cityList = res
-
-          }
-        )
       }
-
     },
     watch: {
       value: function (val, oldVal) {
-        this.$refs.formBusinessbyid.resetFields()
-        coverFormProps(this.formBusinessbyid, this.businessbyid)
-        console.log(this.businessbyid)
-        this.formBusinessbyid.businessId=this.businessbyid.businessId
-        this.initData()
+        this.$refs.formBusiness.resetFields()
+        coverFormProps(this.formBusiness, this.business)
       }
-
     }
   }
 </script>

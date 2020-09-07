@@ -17,6 +17,14 @@ import java.util.List;
 @RequestMapping("/api/news")
 @CrossOrigin(origins = "*", maxAge = 3600)
 public class news extends IViewController {
+    /**
+     *查询全部新闻
+     */
+     @RequestMapping("listnews")
+     public  void  listnews(){
+         List<News> list =News.dao.find("select * from news");
+         renderSuccess(list);
+     }
 
     /**
      *企业资讯接口

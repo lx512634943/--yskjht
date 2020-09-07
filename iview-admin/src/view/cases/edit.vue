@@ -13,11 +13,11 @@
       label-position="right"
       :label-width="80"
     >
-      <FormItem label="伙伴名称" :label-width="100" prop="name">
+      <FormItem label="项目名称" :label-width="100" prop="name">
         <Input type="text" v-model="formProjectCases.name" placeholder="伙伴名称"/>
       </FormItem>
 
-      <FormItem label="合作伙伴封面" prop="picture" :label-width="100">
+      <FormItem label="项目案例图" prop="picture" :label-width="100">
         <div class="demo-upload-list" v-if="formProjectCases.picture">
           <template v-if="formProjectCases.picture">
             <img :src="getImageUrl(formProjectCases.picture)" >
@@ -49,7 +49,7 @@
         <img :src=" getImageUrl(imageUrl)" v-if="visible" style="width: 100%;height:200px;">
       </Modal>
 
-      <FormItem label="合作伙伴封面" prop="pictures" :label-width="100" >
+      <FormItem label="项目浮动图" prop="pictures" :label-width="100" >
         <div class="demo-upload-list" v-if="formProjectCases.pictures">
           <template v-if="formProjectCases.pictures">
             <img :src="getImageUrl(formProjectCases.pictures)"  style="background-color: green">
@@ -81,7 +81,7 @@
         <img :src=" getImageUrl(imageUrl)" v-if="visible1" style="width: 100%;height:200px; background-color: green" >
       </Modal>
 
-      <FormItem label="领用详情" :label-width="100" prop="title">
+      <FormItem label="项目详情" :label-width="100" prop="title">
         <Input type="textarea" v-model="formProjectCases.title" placeholder="领用详情"  style="width:200px"/>
       </FormItem>
       <FormItem>

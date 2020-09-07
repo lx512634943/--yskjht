@@ -16,6 +16,13 @@ export const save = (data) => {
   })
 }
 
+export const delImage = (data) => {
+  return axios.request({
+    url: '/admin/news/delImage',
+    data,
+    method: 'post'
+  })
+}
 export const update = (data) => {
   return axios.request({
     url: '/admin/business/update',

@@ -140,8 +140,8 @@
         let length = quill.getSelection().index;
         // 插入图片，res为服务器返回的图片链接地址
         console.log("http://localhost:81/"+(file.filePath));
-        quill.insertEmbed(length, 'image', 'http://localhost:8080/SoJpt/'+(file.filePath) );
-        // quill.insertEmbed(length, 'image', 'http://39.100.241.51:81/'+(file.filePath) );
+        // quill.insertEmbed(length, 'image', 'http://localhost:8080/SoJpt/'+(file.filePath) );
+        quill.insertEmbed(length, 'image', 'http://39.100.241.51:81/'+(file.filePath) );
         // 调整光标到最后
         quill.setSelection(length + 1)
       }

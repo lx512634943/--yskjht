@@ -9,7 +9,7 @@ export default {
    *              用来在菜单中显示文字
    */
   useI18n: true,
-  urlPath:'http://localhost:8080/SoJpt/'
-  //  urlPath:'/',
+  // urlPath:'http://localhost:8080/SoJpt/'
+   urlPath:'/',
 
 }

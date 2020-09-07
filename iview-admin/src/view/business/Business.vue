@@ -70,8 +70,8 @@
         columns: [
           { type: 'selection', width: 60, align: 'center' },
           { key: 'id', title: '业务编号', sortable: false},
-          { key: 'title', title: '业务了解', sortable: false},
-          { key: 'titles', title: '业务详情', sortable: false},
+          { key: 'title', title: '业务详情', sortable: false},
+          { key: 'titles', title: '业务详情2', sortable: false},
           { key: 'name', title: '业务名字', sortable: false},
           {
             key: 'picture', title: '业务图片', sortable: false,
@@ -93,7 +93,7 @@
               ]);
             }
           },
-          { key: 'businessBytitle', title: '业务讲解', sortable: false,tooltip:true},
+          { key: 'businessBytitle', title: '鼠标悬浮业务详情', sortable: false,tooltip:true},
           {
             title: '操作',
             key: 'action',
@@ -165,6 +165,7 @@
       }
     },
     methods: {
+
       getImageUrl (url) {
 
         return this.$config.urlPath + url
@@ -264,6 +265,5 @@
     }
   }
 </script>
-
 <style>
 </style>
