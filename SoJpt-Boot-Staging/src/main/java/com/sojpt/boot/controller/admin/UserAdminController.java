@@ -37,7 +37,7 @@ import com.sojpt.model.DicUser;
 @RestController
 @RequestMapping("/admin/user/")
 @Before({AdminLoginInterceptor.class, AdminPopedomInterceptor.class})
-public class UserAdminController extends IViewController {
+public class 	UserAdminController extends IViewController {
 
 	@RequestMapping("list")
 	public void list() {

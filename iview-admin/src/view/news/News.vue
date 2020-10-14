@@ -180,7 +180,7 @@
     },
     methods: {
       getImageUrl (url) {
-        console.log(url)
+
         return this.$config.urlPath + url
       },
       handleSubmit (name) {

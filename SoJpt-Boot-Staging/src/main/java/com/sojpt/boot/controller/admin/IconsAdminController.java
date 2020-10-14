@@ -49,6 +49,7 @@ public class IconsAdminController extends IViewController {
     private String path;
     /**
      * 上传图片
+     *
      * @throws IOException
      */
     @RequestMapping("upload")

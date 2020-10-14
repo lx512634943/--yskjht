@@ -47,10 +47,11 @@ public class SucceedAdminController extends IViewController {
         String names=succeed.getCommodityName();
         MerchandiseNew first = merchandiseNew.findFirst("SELECT * FROM merchandise_new  WHERE commodity_name = ? ", names);
         Integer residue=first.getResidue()+succeed.getGet();
+
         System.out.println(succeed.getId());
         if(succeed.dao.deleteById(succeed.getId())) {
             merchandiseNew.setResidue(residue);
-            merchandiseNew.setId(first.getId());
+            merchandiseNew.setId(first.getId());    
             if(merchandiseNew.update()) {
                 renderJson(Ret.ok());
             } else {
@@ -59,10 +60,7 @@ public class SucceedAdminController extends IViewController {
         } else {
             renderJson(Ret.fail());
         }
-
     }
-
-
     public void batchDelete() {
         String[] ids = getPara("ids").split(",");
         SqlPara sqlPara = Db.getSqlPara("admin_succeed.deleteByIds", Kv.by("idList", Arrays.asList(ids)));
@@ -72,5 +70,4 @@ public class SucceedAdminController extends IViewController {
             renderJson(Ret.fail());
         }
     }
-
 }

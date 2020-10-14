@@ -9,6 +9,12 @@ SELECT  news.id,news.title,news.outline,news.content,news.newcover,news.createda
 SELECT id,title FROM news
 #end
 
+#sql("selectKid")
+select * from news  where nkid=#para(nkid)
+#end
+
+
+
 ### 根据IDList删除
 #sql("deleteByIds")
     #@deleteByIdList("news", idList)

@@ -1,9 +1,7 @@
 
 ### 全部
 #sql("select")
-SELECT businessById.id,businessById.picture,business.`name`,businessById.businessId  FROM businessById  JOIN  business  on  businessById.businessId=business.id
-
-
+SELECT  business.`name`,businessById.id,business.byid_pictures,business.businessBytitle,businessById.buid_name,businessById.picture,businessById.byid_title,businessById.byid_titles,businessById.businessId FROM businessById  JOIN business on  businessById.businessId=business.id
 #end
 
 ### 全部

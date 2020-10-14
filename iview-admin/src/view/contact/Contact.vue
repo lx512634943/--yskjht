@@ -82,7 +82,19 @@
                       size: 'small'
                     },
                     on: {
+                      click:()=>{
+                        this.$Modal.confirm({
+                          title: '提示',
+                          content: '<p>确定删除吗?</p>',
+                          onOk: () => {
 
+                            del({ 'contact.id': params.row.id}).then(res => {
+                              this.getContactList(this.current, this.pageSize)
+                            })
+                          },
+                          onCancel: () => {}
+                        });
+                      }
                     }
                   },
                   '删除'

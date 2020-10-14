@@ -70,7 +70,7 @@
 </template>
 <script>
   import { save,list1,delImage } from '@/api/news'
-  import { createModelObj } from '@/libs/util'
+  import { createModelObj,coverFormProps } from '@/libs/util'
   import richText from "../richText/richText";
   export default {
     name: 'Add',
@@ -181,6 +181,7 @@
     },
     watch: {
       value: function (val, oldVal) {
+        coverFormProps(this.formNews, this.news)
         this.initData()
       }
     }

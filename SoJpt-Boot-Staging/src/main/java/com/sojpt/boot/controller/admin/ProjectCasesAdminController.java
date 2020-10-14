@@ -82,7 +82,16 @@ public class ProjectCasesAdminController extends IViewController {
             renderJson(Ret.fail());
         }
     }
-
+    @RequestMapping("save")
+    public void save() {
+        ProjectCases projectCases = getModel(ProjectCases.class, "projectCases");
+        if(projectCases.save()) {
+            renderJson(Ret.ok());
+        } else {
+            renderJson(Ret.fail());
+        }
+    }
+    @RequestMapping("delete")
     public void delete() {
         ProjectCases projectCases = getModel(ProjectCases.class, "projectCases");
         if(ProjectCases.dao.deleteById(projectCases.getId())) {

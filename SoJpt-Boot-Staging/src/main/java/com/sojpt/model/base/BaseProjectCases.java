@@ -49,4 +49,12 @@ public abstract class BaseProjectCases<M extends BaseProjectCases<M>> extends Mo
 		return getStr("title");
 	}
 
+	public void setCasepicture(java.lang.String casepicture) {
+		set("casepicture", casepicture);
+	}
+	
+	public java.lang.String getCasepicture() {
+		return getStr("casepicture");
+	}
+
 }

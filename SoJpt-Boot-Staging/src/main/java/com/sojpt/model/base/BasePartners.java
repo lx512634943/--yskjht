@@ -65,4 +65,12 @@ public abstract class BasePartners<M extends BasePartners<M>> extends Model<M> i
 		return getStr("banner");
 	}
 
+	public void setPictures(java.lang.String pictures) {
+		set("pictures", pictures);
+	}
+	
+	public java.lang.String getPictures() {
+		return getStr("pictures");
+	}
+
 }

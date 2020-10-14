@@ -1,0 +1,2 @@
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-2][ Class:java.lang.Class >> Method: com.sojpt.boot.controller.admin.IndexAdminController.signIn(IndexAdminController.java:85) ]
+INFO:登录成功  用户ID: 9DE5260188E2451F82FEED173E464A1B 用户名: root

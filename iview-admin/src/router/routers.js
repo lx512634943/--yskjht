@@ -23,15 +23,6 @@ export default [
     component: () => import('@/view/login/login.vue')
   },
   {
-    path: '/index',
-    name: 'index',
-    meta: {
-      title: 'Login - 登录',
-      hideInMenu: true
-    },
-    component: () => import('@/view/index/index.vue')
-  },
-  {
     path: '/',
     name: '_home',
     redirect: '/home',

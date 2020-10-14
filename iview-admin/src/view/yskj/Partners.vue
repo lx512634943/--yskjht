@@ -76,6 +76,7 @@
           { key: 'pname', title: '伙伴名称', sortable: false},
           { key: 'kinds', title: '伙伴名称类型', sortable: false,tooltip:true},
 
+
           {
             key: 'cover', title: '合作伙伴封面', sortable: false, width: 100,
             render: (h, params) => {
@@ -84,6 +85,27 @@
                   'img', {
                     attrs: {
                       src: this.getImageUrl(params.row.cover)
+                    },
+                    style: {
+                      marginRight: '5px',
+                      width: '80px',
+                      height: '50px'
+                    }
+                  },
+                  ''
+                )
+              ]);
+            }
+
+          },
+          {
+            key: 'pictures', title: '合作伙伴轮播图', sortable: false, width: 100,
+            render: (h, params) => {
+              return h('div', [
+                h(
+                  'img', {
+                    attrs: {
+                      src: this.getImageUrl(params.row.pictures)
                     },
                     style: {
                       marginRight: '5px',

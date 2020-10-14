@@ -81,4 +81,12 @@ public abstract class BaseNews<M extends BaseNews<M>> extends Model<M> implement
 		return getInt("nkid");
 	}
 
+	public void setPicture(java.lang.String picture) {
+		set("picture", picture);
+	}
+	
+	public java.lang.String getPicture() {
+		return getStr("picture");
+	}
+
 }

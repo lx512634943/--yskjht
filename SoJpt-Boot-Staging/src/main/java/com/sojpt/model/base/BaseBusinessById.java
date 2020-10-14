@@ -33,4 +33,28 @@ public abstract class BaseBusinessById<M extends BaseBusinessById<M>> extends Mo
 		return getInt("businessId");
 	}
 
+	public void setBuidName(java.lang.String buidName) {
+		set("buid_name", buidName);
+	}
+	
+	public java.lang.String getBuidName() {
+		return getStr("buid_name");
+	}
+
+	public void setByidTitle(java.lang.String byidTitle) {
+		set("byid_title", byidTitle);
+	}
+	
+	public java.lang.String getByidTitle() {
+		return getStr("byid_title");
+	}
+
+	public void setByidTitles(java.lang.String byidTitles) {
+		set("byid_titles", byidTitles);
+	}
+	
+	public java.lang.String getByidTitles() {
+		return getStr("byid_titles");
+	}
+
 }

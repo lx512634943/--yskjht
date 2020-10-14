@@ -23,9 +23,7 @@
       <FormItem label="业务详情2" :label-width="100" prop="titles">
         <Input type="text" v-model="formBusiness.titles" placeholder="业务详情2"/>
       </FormItem>
-      <FormItem label="悬浮业务详情" :label-width="100" prop="businessBytitle">
-        <Input type="textarea" v-model="formBusiness.businessBytitle" placeholder="领用详情"  style="width:200px"/>
-      </FormItem>
+
 
       <FormItem label="项目案例图" prop="picture" :label-width="100">
         <div class="demo-upload-list" v-if="formBusiness.picture">
@@ -59,9 +57,40 @@
         <img :src=" getImageUrl(imageUrl)" v-if="visible" style="width: 100%;height:200px;">
       </Modal>
 
-      <FormItem label="项目具体详情" :label-width="100" prop="businesstitle">
-        <rich-text style="margin-bottom: 5%" :value="formBusiness.businesstitle"  @on-change="richTextChange($event)"></rich-text>
+
+      <FormItem label="项目案例悬浮图" prop="picture" :label-width="100">
+        <div class="demo-upload-list" v-if="formBusiness.pictures">
+          <template v-if="formBusiness.pictures">
+            <img :src="getImageUrl(formBusiness.pictures)" style="background-color: green" >
+            <div class="demo-upload-list-cover">
+              <Icon type="ios-eye-outline" @click.native="handleView1(formBusiness.pictures)" ></Icon>
+              <Icon type="ios-trash-outline" @click.native="handleRemove1()"></Icon>
+            </div>
+          </template>
+        </div>
+        <Upload
+          ref="upload"
+          :show-upload-list="false"
+          :on-success="handleSuccess1"
+          :format="['jpg','jpeg','png']"
+          :max-size="2048"
+          :on-format-error="handleFormatError"
+          :on-exceeded-size="handleMaxSize"
+          :before-upload="handleBeforeUpload"
+          multiple
+          type="drag"
+          :action="baseURL"
+          style="display: inline-block;width:58px;" v-if="!this.formBusiness.pictures">
+          <div style="width: 58px;height:57px;line-height: 58px;" v-if="!this.formBusiness.pictures">
+            <Icon type="ios-camera" size="20"></Icon>
+          </div>
+        </Upload>
       </FormItem>
+      <Modal title="查看图片" v-model="visible1">
+        <img :src=" getImageUrl(imageUrl)" v-if="visible1" style="width: 100%;height:200px;">
+      </Modal>
+
+
 
       <FormItem>
         <Button type="primary" @click="handleSubmit('formBusiness')">提交</Button>
@@ -90,6 +119,7 @@
     data () {
       return {
         visible: false,
+        visible1:false,
         imageUrl:'',
         formBusiness: {
           id:'',
@@ -98,7 +128,7 @@
           titles:'',
           businessBytitle:'',
           picture:'',
-          businesstitle:''
+          pictures:''
         },
         ruleValidate: {
         }
@@ -110,9 +140,7 @@
       }
     },
     methods: {
-      richTextChange(res){
-        this.formBusiness.businesstitle = res;
-      },
+
       handleFormatError (file) {
         this.spinShow = false
         this.$Notice.warning({
@@ -151,6 +179,23 @@
         })
       },
 
+      handleSuccess1 (res, file) {
+        this.spinShow = false
+        this.formBusiness.pictures = res.filePath
+      },
+      handleView1 (imgUrl) {
+        this.imageUrl = imgUrl
+        this.visible1 = true
+      },
+      handleRemove1 () {
+        this.spinShow = true
+        let url = this.formBusiness.pictures
+        delImage({'url': url}).then(res => {
+          this.spinShow = false
+          this.formBusiness.pictures = ''
+        })
+      },
+
       getImageUrl (url) {
         return this.$config.urlPath + url
       },
@@ -183,3 +228,41 @@
     }
   }
 </script>
+<style>
+  .demo-upload-list{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    margin-right: 4px;
+  }
+  .demo-upload-list img{
+    width: 100%;
+    height: 100%;
+  }
+  .demo-upload-list-cover{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.6);
+  }
+  .demo-upload-list:hover .demo-upload-list-cover{
+    display: block;
+  }
+  .demo-upload-list-cover i{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 2px;
+  }
+</style>

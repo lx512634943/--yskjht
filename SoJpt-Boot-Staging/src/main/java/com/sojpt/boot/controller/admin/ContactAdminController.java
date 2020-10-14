@@ -40,7 +40,7 @@ public class ContactAdminController extends IViewController {
         renderJson(page);
     }
 
-
+    @RequestMapping("delete")
     public void delete() {
         Contact contact = getModel(Contact.class, "contact");
         if(Contact.dao.deleteById(contact.getId())) {

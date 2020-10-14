@@ -33,20 +33,20 @@ public abstract class BaseContact<M extends BaseContact<M>> extends Model<M> imp
 		return getStr("telphone");
 	}
 
-	public void setMessage(java.lang.String message) {
-		set("message", message);
-	}
-	
-	public java.lang.String getMessage() {
-		return getStr("message");
-	}
-
 	public void setSendtime(java.util.Date sendtime) {
 		set("sendtime", sendtime);
 	}
 	
 	public java.util.Date getSendtime() {
 		return get("sendtime");
+	}
+
+	public void setMessage(java.lang.String message) {
+		set("message", message);
+	}
+	
+	public java.lang.String getMessage() {
+		return getStr("message");
 	}
 
 }

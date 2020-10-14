@@ -1,0 +1,1300 @@
+2020-10-09 08:57:01 上午 [Thread: restartedMain][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001,procId-2375} connected
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} pool-connect
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20000} created
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20000, rs-50000} query executed. 102.542001 millis. select * from `Intellectualization` where 1 = 2
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20000, rs-50000} open
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20000, rs-50000} Header: [id, name, title, picture, business_id, title1]
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20000, rs-50000} closed
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20000} closed
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20001} created
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20001, rs-50001} query executed. 21.801401 millis. select * from `Supply_chainfinance` where 1 = 2
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20001, rs-50001} open
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20001, rs-50001} Header: [id, name, title, picture]
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20001, rs-50001} closed
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20001} closed
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20002} created
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20002, rs-50002} query executed. 19.4098 millis. select * from `big_data` where 1 = 2
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20002, rs-50002} open
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20002, rs-50002} Header: [id, name, title, title1, title2, picture, business_id]
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20002, rs-50002} closed
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20002} closed
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20003} created
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20003, rs-50003} query executed. 23.803301 millis. select * from `business` where 1 = 2
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20003, rs-50003} open
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20003, rs-50003} Header: [id, titles, businessBytitle, title, name, picture, pictures, byid_pictures, href]
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20003, rs-50003} closed
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20003} closed
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20004} created
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20004, rs-50004} query executed. 39.664201 millis. select * from `businessById` where 1 = 2
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20004, rs-50004} open
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20004, rs-50004} Header: [id, picture, businessId, buid_name, byid_title, byid_titles]
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20004, rs-50004} closed
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20004} closed
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20005} created
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20005, rs-50005} query executed. 57.601801 millis. select * from `contact` where 1 = 2
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20005, rs-50005} open
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20005, rs-50005} Header: [id, sendname, telphone, sendtime, message]
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20005, rs-50005} closed
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20005} closed
+2020-10-09 08:57:03 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20006} created
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20006, rs-50006} query executed. 98.202499 millis. select * from `dic_log` where 1 = 2
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20006, rs-50006} open
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20006, rs-50006} Header: [SESSION_ID, USER_CODE, USER_ID, POPEDOM_NAME, FORWARD_ACTION, IP, BROWSER, OS, ID, PARAS, ENTRY_TIME]
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20006, rs-50006} closed
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20006} closed
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20007} created
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20007, rs-50007} query executed. 154.0663 millis. select * from `dic_popedom` where 1 = 2
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20007, rs-50007} open
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20007, rs-50007} Header: [ID, POPEDOM_NAME, FORWARD_ACTION, XH, REMARK, PARENT_ID, REDIRECT, NAV_ICON, TYPE, CREATER_ID, ENTRY_TIME, IS_LOG, NAME, COMPONENT, HREF, IS_HIDE, IS_NOT_CACHE]
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20007, rs-50007} closed
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20007} closed
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20008} created
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20008, rs-50008} query executed. 288.145199 millis. select * from `dic_role` where 1 = 2
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20008, rs-50008} open
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20008, rs-50008} Header: [ID, ROLE_NAME, XH, REMARK, PARENT_ID, CREATER_ID, TYPE, IS_PRIVATE, ENTRY_TIME]
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20008, rs-50008} closed
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20008} closed
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20009} created
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20009, rs-50009} query executed. 304.371099 millis. select * from `dic_role_popedom` where 1 = 2
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20009, rs-50009} open
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20009, rs-50009} Header: [ID, ROLE_ID, POPEDOM_ID, CREATER_ID, ENTRY_TIME]
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20009, rs-50009} closed
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20009} closed
+2020-10-09 08:57:04 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20010} created
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20010, rs-50010} query executed. 316.8097 millis. select * from `dic_student` where 1 = 2
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20010, rs-50010} open
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20010, rs-50010} Header: [id, name, address, age]
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20010, rs-50010} closed
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20010} closed
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20011} created
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20011, rs-50011} query executed. 397.042299 millis. select * from `dic_user` where 1 = 2
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20011, rs-50011} open
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20011, rs-50011} Header: [ID, USER_CODE, USER_NAME, PASSWD, UNIT_ID, SALT, REMARK, CREATER_ID, PARENT_ID, TYPE, IS_DISABLED, ENTRY_TIME]
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20011, rs-50011} closed
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20011} closed
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20012} created
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20012, rs-50012} query executed. 493.117 millis. select * from `dic_user_role` where 1 = 2
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20012, rs-50012} open
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20012, rs-50012} Header: [ID, USER_ID, ROLE_ID, CREATER_ID, ENTRY_TIME]
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20012, rs-50012} closed
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20012} closed
+2020-10-09 08:57:05 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20013} created
+2020-10-09 08:57:06 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20013, rs-50013} query executed. 548.3814 millis. select * from `employment` where 1 = 2
+2020-10-09 08:57:06 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20013, rs-50013} open
+2020-10-09 08:57:06 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20013, rs-50013} Header: [id, skill, releasedate, pnumber, iconid]
+2020-10-09 08:57:06 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20013, rs-50013} closed
+2020-10-09 08:57:06 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20013} closed
+2020-10-09 08:57:06 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20014} created
+2020-10-09 08:57:07 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20014, rs-50014} query executed. 511.3106 millis. select * from `environment_protection` where 1 = 2
+2020-10-09 08:57:07 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20014, rs-50014} open
+2020-10-09 08:57:07 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20014, rs-50014} Header: [id, name, title, picture, business_id]
+2020-10-09 08:57:07 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20014, rs-50014} closed
+2020-10-09 08:57:07 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20014} closed
+2020-10-09 08:57:07 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20015} created
+2020-10-09 08:57:07 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20015, rs-50015} query executed. 535.6504 millis. select * from `icons` where 1 = 2
+2020-10-09 08:57:07 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20015, rs-50015} open
+2020-10-09 08:57:07 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20015, rs-50015} Header: [id, icon, icname]
+2020-10-09 08:57:07 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20015, rs-50015} closed
+2020-10-09 08:57:07 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20015} closed
+2020-10-09 08:57:07 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20016} created
+2020-10-09 08:57:08 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20016, rs-50016} query executed. 480.2732 millis. select * from `intellect_case` where 1 = 2
+2020-10-09 08:57:08 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20016, rs-50016} open
+2020-10-09 08:57:08 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20016, rs-50016} Header: [id, name, title, picture]
+2020-10-09 08:57:08 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20016, rs-50016} closed
+2020-10-09 08:57:08 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20016} closed
+2020-10-09 08:57:08 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20017} created
+2020-10-09 08:57:08 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20017, rs-50017} query executed. 459.7586 millis. select * from `merchandise_new` where 1 = 2
+2020-10-09 08:57:08 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20017, rs-50017} open
+2020-10-09 08:57:08 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20017, rs-50017} Header: [id, commodity_name, container_number, unit, inventory, purchase, money, get, get_peopel, get_time, residue, remark, merchandisetypeId]
+2020-10-09 08:57:08 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20017, rs-50017} closed
+2020-10-09 08:57:08 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20017} closed
+2020-10-09 08:57:08 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20018} created
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20018, rs-50018} query executed. 482.268001 millis. select * from `merchandise_type` where 1 = 2
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20018, rs-50018} open
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20018, rs-50018} Header: [id, merchandise]
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20018, rs-50018} closed
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20018} closed
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20019} created
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20019, rs-50019} query executed. 452.6348 millis. select * from `newkinds` where 1 = 2
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20019, rs-50019} open
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20019, rs-50019} Header: [id, kinds]
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20019, rs-50019} closed
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20019} closed
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20020} created
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20020, rs-50020} query executed. 492.4592 millis. select * from `news` where 1 = 2
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20020, rs-50020} open
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20020, rs-50020} Header: [id, title, outline, content, newcover, createdate, trenchs, overhead, nkid, picture]
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20020, rs-50020} closed
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20020} closed
+2020-10-09 08:57:09 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20021} created
+2020-10-09 08:57:10 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20021, rs-50021} query executed. 510.7499 millis. select * from `newsindex` where 1 = 2
+2020-10-09 08:57:10 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20021, rs-50021} open
+2020-10-09 08:57:10 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20021, rs-50021} Header: [id, pictures, newsid]
+2020-10-09 08:57:10 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20021, rs-50021} closed
+2020-10-09 08:57:10 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20021} closed
+2020-10-09 08:57:10 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20022} created
+2020-10-09 08:57:10 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20022, rs-50022} query executed. 473.8975 millis. select * from `order` where 1 = 2
+2020-10-09 08:57:10 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20022, rs-50022} open
+2020-10-09 08:57:10 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20022, rs-50022} Header: [id, name, adress, age, phone]
+2020-10-09 08:57:10 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20022, rs-50022} closed
+2020-10-09 08:57:10 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20022} closed
+2020-10-09 08:57:10 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20023} created
+2020-10-09 08:57:11 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20023, rs-50023} query executed. 502.4721 millis. select * from `partbanner` where 1 = 2
+2020-10-09 08:57:11 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20023, rs-50023} open
+2020-10-09 08:57:11 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20023, rs-50023} Header: [id, pid, pircture, createdate]
+2020-10-09 08:57:11 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20023, rs-50023} closed
+2020-10-09 08:57:11 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20023} closed
+2020-10-09 08:57:11 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20024} created
+2020-10-09 08:57:11 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20024, rs-50024} query executed. 492.4665 millis. select * from `partnerkinds` where 1 = 2
+2020-10-09 08:57:11 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20024, rs-50024} open
+2020-10-09 08:57:11 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20024, rs-50024} Header: [id, kinds]
+2020-10-09 08:57:11 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20024, rs-50024} closed
+2020-10-09 08:57:11 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20024} closed
+2020-10-09 08:57:11 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20025} created
+2020-10-09 08:57:12 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20025, rs-50025} query executed. 474.2777 millis. select * from `partners` where 1 = 2
+2020-10-09 08:57:12 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20025, rs-50025} open
+2020-10-09 08:57:12 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20025, rs-50025} Header: [id, pname, introduce, cover, createdate, pkid, banner, pictures]
+2020-10-09 08:57:12 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20025, rs-50025} closed
+2020-10-09 08:57:12 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20025} closed
+2020-10-09 08:57:12 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20026} created
+2020-10-09 08:57:12 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20026, rs-50026} query executed. 529.6049 millis. select * from `partners_index` where 1 = 2
+2020-10-09 08:57:12 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20026, rs-50026} open
+2020-10-09 08:57:12 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20026, rs-50026} Header: [id, cover, partnersid]
+2020-10-09 08:57:12 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20026, rs-50026} closed
+2020-10-09 08:57:12 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20026} closed
+2020-10-09 08:57:12 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20027} created
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20027, rs-50027} query executed. 488.1023 millis. select * from `project_cases` where 1 = 2
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20027, rs-50027} open
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20027, rs-50027} Header: [id, picture, pictures, name, title, casepicture]
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20027, rs-50027} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20027} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20028} created
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20028, rs-50028} query executed. 242.8709 millis. select * from `promotion` where 1 = 2
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20028, rs-50028} open
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20028, rs-50028} Header: [id, name, title, picture, titles, business_id]
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20028, rs-50028} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20028} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20029} created
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20029, rs-50029} query executed. 22.2842 millis. select * from `quality` where 1 = 2
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20029, rs-50029} open
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20029, rs-50029} Header: [id, name, aqi]
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20029, rs-50029} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20029} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20030} created
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20030, rs-50030} query executed. 21.3754 millis. select * from `ringcase` where 1 = 2
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20030, rs-50030} open
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20030, rs-50030} Header: [id, name, title, picture]
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20030, rs-50030} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20030} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20031} created
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20031, rs-50031} query executed. 20.0622 millis. select * from `shangping` where 1 = 2
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20031, rs-50031} open
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20031, rs-50031} Header: [id, sname, uname, time, number, beizhu, zhuangtai]
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20031, rs-50031} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20031} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20032} created
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20032, rs-50032} query executed. 21.0735 millis. select * from `slideshow` where 1 = 2
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20032, rs-50032} open
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20032, rs-50032} Header: [id, photos, createdate, sign, nid]
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20032, rs-50032} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20032} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20033} created
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20033, rs-50033} query executed. 36.6782 millis. select * from `succeed` where 1 = 2
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20033, rs-50033} open
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20033, rs-50033} Header: [id, commodity_name, get, get_peopel, get_time, residue]
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20033, rs-50033} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20033} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20034} created
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20034, rs-50034} query executed. 21.8812 millis. select * from `supply_chain` where 1 = 2
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20034, rs-50034} open
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20034, rs-50034} Header: [id, name, title, title1, picture, business_id]
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, stmt-20034, rs-50034} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, stmt-20034} closed
+2020-10-09 08:57:13 上午 [Thread: restartedMain][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} pool-recycle
+2020-10-09 08:58:17 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} pool-connect
+2020-10-09 08:58:17 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20035} created. 	select * from dic_user
+        where 
+            USER_CODE = ?
+
+2020-10-09 08:58:17 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20035} Parameters : [root]
+2020-10-09 08:58:17 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20035} Types : [VARCHAR]
+2020-10-09 08:58:18 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20035, rs-50035} query executed. 905.2177 millis. 	select * from dic_user
+        where 
+            USER_CODE = ?
+
+2020-10-09 08:58:18 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20035, rs-50035} open
+2020-10-09 08:58:18 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20035, rs-50035} Header: [ID, USER_CODE, USER_NAME, PASSWD, UNIT_ID, SALT, REMARK, CREATER_ID, PARENT_ID, TYPE, IS_DISABLED, ENTRY_TIME]
+2020-10-09 08:58:18 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20035, rs-50035} Result: [9DE5260188E2451F82FEED173E464A1B, root, 超级管理员, f19f1b60670d0f7cfeed5ac46eb1b318b22f5443286dc1c8c28ec1cd7d7585c1, null, 9rQ38gr9yBTaoD0zxrDS8k9xUEdp9FvE, 开发者使用, null, null, 2, 2, 2020-07-27 16:34:59.0]
+2020-10-09 08:58:18 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20035, rs-50035} closed
+2020-10-09 08:58:18 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20035} clearParameters. 
+2020-10-09 08:58:18 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} pool-recycle
+2020-10-09 08:58:18 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} pool-connect
+2020-10-09 08:58:18 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20036} created. 	select * from dic_user
+        where 
+            PASSWD = ?
+        and 
+            USER_CODE = ?
+        and 
+            IS_DISABLED = ?
+
+2020-10-09 08:58:18 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20036} Parameters : [f19f1b60670d0f7cfeed5ac46eb1b318b22f5443286dc1c8c28ec1cd7d7585c1, root, 2]
+2020-10-09 08:58:18 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20036} Types : [VARCHAR, VARCHAR, DECIMAL]
+2020-10-09 08:58:19 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20036, rs-50036} query executed. 945.8446 millis. 	select * from dic_user
+        where 
+            PASSWD = ?
+        and 
+            USER_CODE = ?
+        and 
+            IS_DISABLED = ?
+
+2020-10-09 08:58:19 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20036, rs-50036} open
+2020-10-09 08:58:19 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20036, rs-50036} Header: [ID, USER_CODE, USER_NAME, PASSWD, UNIT_ID, SALT, REMARK, CREATER_ID, PARENT_ID, TYPE, IS_DISABLED, ENTRY_TIME]
+2020-10-09 08:58:19 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20036, rs-50036} Result: [9DE5260188E2451F82FEED173E464A1B, root, 超级管理员, f19f1b60670d0f7cfeed5ac46eb1b318b22f5443286dc1c8c28ec1cd7d7585c1, null, 9rQ38gr9yBTaoD0zxrDS8k9xUEdp9FvE, 开发者使用, null, null, 2, 2, 2020-07-27 16:34:59.0]
+2020-10-09 08:58:19 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20036, rs-50036} closed
+2020-10-09 08:58:19 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20036} clearParameters. 
+2020-10-09 08:58:19 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} pool-recycle
+2020-10-09 08:58:19 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} pool-connect
+2020-10-09 08:58:19 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20037} created.     SELECT POPEDOM_NAME, FORWARD_ACTION, IS_LOG FROM dic_popedom WHERE FORWARD_ACTION IS NOT NULL AND ID IN (SELECT POPEDOM_ID FROM dic_role_popedom WHERE ROLE_ID IN (SELECT ROLE_ID FROM dic_user_role WHERE USER_ID = ?))
+
+2020-10-09 08:58:19 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20037} Parameters : [9DE5260188E2451F82FEED173E464A1B]
+2020-10-09 08:58:19 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20037} Types : [VARCHAR]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} query executed. 1018.0468 millis.     SELECT POPEDOM_NAME, FORWARD_ACTION, IS_LOG FROM dic_popedom WHERE FORWARD_ACTION IS NOT NULL AND ID IN (SELECT POPEDOM_ID FROM dic_role_popedom WHERE ROLE_ID IN (SELECT ROLE_ID FROM dic_user_role WHERE USER_ID = ?))
+
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} open
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Header: [POPEDOM_NAME, FORWARD_ACTION, IS_LOG]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除图片, /admin/cases/delImage, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [添加, /admin/cases/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询下拉列表, /admin/slideshow/list1, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [列表, /admin/role/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [添加, /admin/business/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [批量删除, /admin/role/batchDelete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [同步权限, /admin/popedom/syncPopedom, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/slideshow/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除, /admin/newsindex/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除, /admin/partners/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [添加, /admin/icons/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [保存, /admin/role/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [系统监控, /monitoring, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询, /admin/business/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/partners/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/partners/upload, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/shangping/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [游客留言, /contact, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/slideshow/list1, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询列表, /admin/newsindex/list1, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除图片, /admin/newsindex/delImage, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [分类查询, /admin/news/list1, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/news/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/news/list1, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [修改, /admin/contact/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [系统日志, log, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [修改, /admin/slideshow/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [列表, /admin/user/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除图片, /admin/index/delImage, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询列表, /admin/index/list1, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [保存, /admin/popedom/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除, /admin/slideshow/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [添加, /admin/newsindex/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [保存权限, /admin/role/savePopedom, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [修改, /admin/business/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [添加, /admin/partners/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [批量删除, /admin/user/batchDelete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/partners/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询, /admin/icons/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [列表, /admin/popedom/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [是否禁用, /admin/user/isDisable, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [修改, /admin/index/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [保存角色, /admin/user/saveRole, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [修改, /admin/partners/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/partnerkinds/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除, /admin/role/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除, /admin/business/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/slideshow/upload, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除图片, /admin/partners/delImage, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除图片, /admin/employment/delImage, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/news/upload, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [javaMelody, melody, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [修改, /admin/employment/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/new/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除图片, /admin/icons/delImage, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/partners/delImage, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [新闻详情, news, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [保存, /admin/user/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [列表查询, /admin/cases/list1, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询, /admin/cases/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除, /admin/index/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [添加, /admin/employment/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [新闻管理, /news, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [更新, /admin/role/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [list, /admin/business/lsit1, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [游客留言管理, contact, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [更新, /admin/popedom/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [系统管理, /admin, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [权限管理, popedom, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除图片, /admin/contact/delImage, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [更新, /admin/user/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除, /admin/employment/delect, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除, /admin/user/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [添加, /admin/news/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询列表, /admin/employment/list1, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [角色管理, role, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [重置密码, /admin/user/resetPwd, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [修改, /admin/cases/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除图片, /admin/business/delImage, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [修改, /admin/newsindex/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除, /admin/cases/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/new/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除图片, /admin/slideshow/delImage, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询, /admin/contact/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [用户管理, user, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [列表, /admin/log/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [用户角色列表, /admin/user/roleListByUserId, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/partners/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [合作伙伴, partners, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/partners/list1, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [批量保存角色, /admin/user/batchSaveRole, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/partners/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [添加, /admin/contact/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除, /admin/contact/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询, /admin/slideshow/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/order1/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/news/delImage, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [系统审计, /admin, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询, /admin/employment/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [druid, druid, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询, /admin/news/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [角色权限列表, /admin/role/popedomListByRoleId, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除, /admin/news/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/new/list1, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [添加, /admin/index/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/slideshow/delImage, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/news/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/slideshow/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [批量赋权, /admin/role/batchSavePopedom, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除, /admin/popedom/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询, /admin/partners/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [删除, /admin/icons/delete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询, /admin/index/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [null, /admin/new/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [修改, /admin/icons/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [批量删除, /admin/popedom/batchDelete, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [下拉列表, /admin/contact/list1, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询下拉列表, /admin/partners/list1, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [盈实科技, /yskj, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询, /admin/newsindex/list, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [修改, /admin/news/update, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [查询列表, /admin/icons/list1, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [添加, /admin/slideshow/save, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [图片删除, /admin/news/delImage, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} Result: [修改密码, /admin/user/updatePwd, 2]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20037, rs-50037} closed
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20037} clearParameters. 
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} pool-recycle
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} pool-connect
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20038} created. insert into `dic_log`(`POPEDOM_NAME`, `USER_CODE`, `ENTRY_TIME`, `BROWSER`, `OS`, `FORWARD_ACTION`, `IP`, `USER_ID`, `ID`, `SESSION_ID`) values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20038} Parameters : [登录, root, Fri Oct 09 08:58:20 CST 2020, Chrome 85.0.4183, Windows 10 , /admin/login/signIn, 127.0.0.1, 9DE5260188E2451F82FEED173E464A1B, 270ff22102fe4ff49ceb02de4f808540, DabpNluXnOQG0YhiNwEKxQeJvSYJTviANOjhL7Nh]
+2020-10-09 08:58:20 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20038} Types : [VARCHAR, VARCHAR, DATE, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20038} update executed. effort 1. 926.5364 millis. insert into `dic_log`(`POPEDOM_NAME`, `USER_CODE`, `ENTRY_TIME`, `BROWSER`, `OS`, `FORWARD_ACTION`, `IP`, `USER_ID`, `ID`, `SESSION_ID`) values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20038, rs-50038} open
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20038, rs-50038} Header: [GENERATED_KEY]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20038, rs-50038} closed
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20038} clearParameters. 
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-2][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} pool-recycle
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-2][ Class:java.lang.Class >> Method: com.sojpt.boot.controller.admin.IndexAdminController.signIn(IndexAdminController.java:85) ]
+INFO:登录成功  用户ID: 9DE5260188E2451F82FEED173E464A1B 用户名: root
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} pool-connect
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20039} created. 	select * from dic_popedom order by TYPE, XH, ENTRY_TIME
+
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20039} Parameters : []
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20039} Types : []
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} query executed. 348.5786 millis. 	select * from dic_popedom order by TYPE, XH, ENTRY_TIME
+
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} open
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Header: [ID, POPEDOM_NAME, FORWARD_ACTION, XH, REMARK, PARENT_ID, REDIRECT, NAV_ICON, TYPE, CREATER_ID, ENTRY_TIME, IS_LOG, NAME, COMPONENT, HREF, IS_HIDE, IS_NOT_CACHE]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [FF9C8A3D93E548FCBB06C4525F93CEFE, 系统日志, log, 0, null, 6D56F15C3BF841A581A2A94C0DEDCBA4, null, ios-list-box-outline, 1, 0837BE156B8A4DE8B24701F17115B47C, 2019-03-27 11:14:33.0, 2, log, view/audit/log.vue, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [ba6c633934954da1bf397b58e2d206af, 盈实科技, /yskj, 0, null, 0, null, _huaban, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-06-09 14:13:06.0, 2, 盈实科技, view/main, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [38455da5e13c418bbd7e6b68d26ea8a6, 二级-2, level_2_2, 0, null, 7FF8F1E4E44441C4AAFEB9D5E98793F2, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-07-20 10:54:44.0, 2, 商品库存管理, view/multilevel, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [906ce38f1d314117a5d76c2d7308fc45, 添加, /admin/shangping/save, 0, null, a544766ff39b4844b209ac4eece4bbbf, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-07-27 17:19:07.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [15dce785339b4c0c830c39b628ec39ab, 查询, /admin/shangping/list1, 0, null, a544766ff39b4844b209ac4eece4bbbf, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-07-27 19:00:03.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [080635ced8664382ac32cab4bbdea17e, 查询, /admin/partners/list, 0, null, a6ba0f751f7e4581bbddb639025c0b7b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-07-31 09:17:17.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c94927781c994ab0ab47a5989a7638dc, 添加, /admin/partners/save, 0, null, a6ba0f751f7e4581bbddb639025c0b7b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-07-31 09:17:44.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c1ede701a3b4476595f2cc36a8219efa, 新闻管理, /news, 0, null, 0, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-07-31 09:20:58.0, 2, 新闻管理, view/main, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [bedd76c0189440e7b7e5b475df72651e, 新闻详情, news, 0, null, c1ede701a3b4476595f2cc36a8219efa, null, _xinwenzixun, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-07-31 09:21:33.0, 2, 新闻详情, view/news, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [020ce65df27549a3ab925e4fd750910c, 查询, /admin/news/list, 0, null, bedd76c0189440e7b7e5b475df72651e, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-07-31 09:22:29.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [7b8e86ff8fc54da7b190eca4a1505e43, 查询, /admin/slideshow/list, 0, null, 9815e33e06e94e7b9e841b1620a67408, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-07-31 09:28:29.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [f24fc3ecc8a74699a0b5f4f08612767f, 添加, /admin/slideshow/save, 0, null, 9815e33e06e94e7b9e841b1620a67408, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-07-31 09:28:51.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [8f3e19b116c14bf19b0365d56d1b730f, 删除, /admin/shangping/delete, 0, null, a3001dd4859941e4a93a3f148e2ec2a1, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-03 14:00:34.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [a28f732a67b24c2480a4c1aa324b5016, 游客留言, /contact, 0, null, 0, null, _jiaoseziliao, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-04 09:34:18.0, 2, 游客留言, view/main, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [1e24340e6c134f2482a6d109bf5530e2, 游客留言管理, contact, 0, null, a28f732a67b24c2480a4c1aa324b5016, null, _liuyan, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-04 09:35:48.0, 2, 游客留言管理, view/contact, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [9453ad57412348d3a48f039c741aeae3, 查询, /admin/icons/list, 0, null, df6a527420604c3e976b752259e9dbdb, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-05 16:22:39.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [a989122b60284fca8f6c08c16f3c78cd, 添加, /admin/icons/save, 0, null, df6a527420604c3e976b752259e9dbdb, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-05 16:22:59.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [52c4dcddc49b4e8c9a40f03d5cf0d807, 修改, /admin/icons/update, 0, null, df6a527420604c3e976b752259e9dbdb, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-05 16:24:54.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [8d4c40b557f24f0e825bae4d4555ce71, 删除, /admin/icons/delete, 0, null, df6a527420604c3e976b752259e9dbdb, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-05 16:25:17.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [5c088db44b054c1bb5ee5fda890d2b0d, 修改, /admin/employment/update, 0, null, 52d1c6b516f149a8b5b73a8770fa1c29, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-10 10:20:43.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [13b9700dd8fc422baf637429e61fb1c7, 删除, /admin/employment/delect, 0, null, 52d1c6b516f149a8b5b73a8770fa1c29, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-10 10:21:05.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [adca9e3e33074ba98be25791127bf947, 查询, /admin/cases/list, 0, null, db94f58a2fa040a295f1e72198cf1c4b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-24 13:57:18.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [accd9159fe97420398b0a30f7bfdaa3c, 添加, /admin/cases/save, 0, null, db94f58a2fa040a295f1e72198cf1c4b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-24 13:57:49.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [f30ca59c7be34f719b64453b31588df9, 修改, /admin/cases/update, 0, null, db94f58a2fa040a295f1e72198cf1c4b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-24 13:58:10.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [4ee6cd3f344845f184c93f5bee9d9065, 删除, /admin/cases/delete, 0, null, db94f58a2fa040a295f1e72198cf1c4b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-24 13:58:40.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [1aa4b0b1ec1a4be2b1103c98fb012fe0, 公司业务, Businessbyid, 0, null, 49cfe69ddf3147f1a4610ea95a4bad89, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-24 15:36:54.0, 2, 公司业务, view/busines, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [45c344389d134218aaf1ee4fe018b9a4, 查询, /admin/businessbyid/list, 0, null, 1aa4b0b1ec1a4be2b1103c98fb012fe0, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-08-24 15:38:18.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [9ad271e4bd434de8802433513430c5ed, 修改, /admin/partners/update, 0, null, a6ba0f751f7e4581bbddb639025c0b7b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 10:07:39.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [ee497fae389e44a39ba835fb0e5222c4, 删除, /admin/partners/delete, 0, null, a6ba0f751f7e4581bbddb639025c0b7b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 10:07:56.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [17d3315eef5a4b08a9ff48e63f519c0e, 修改, /admin/slideshow/update, 0, null, 9815e33e06e94e7b9e841b1620a67408, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 10:09:27.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [66f9945f0f394abc9dd6a5f212dbd0cc, 删除, /admin/slideshow/delete, 0, null, 9815e33e06e94e7b9e841b1620a67408, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 10:09:41.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [a817f3533b584bf5aa9cacdf953735fb, 添加, /admin/contact/save, 0, null, 1e24340e6c134f2482a6d109bf5530e2, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 10:10:22.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [bcbad8b5d4794efb870f1d6885a2a10e, 修改, /admin/contact/update, 0, null, 1e24340e6c134f2482a6d109bf5530e2, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 10:10:36.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [a4750d4ef0a64b2082fe98c17f01f73d, 修改, /admin/businessbyid/update, 0, null, 1aa4b0b1ec1a4be2b1103c98fb012fe0, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 10:11:17.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [52f0386d453644d3a5183ac70ee1e290, 添加, /admin/businessbyid/save, 0, null, 1aa4b0b1ec1a4be2b1103c98fb012fe0, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 10:11:31.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [1707df3ae0914a739b2ed768d16079c9, 删除, /admin/businessbyid/delete, 0, null, 1aa4b0b1ec1a4be2b1103c98fb012fe0, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 10:12:29.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [a0c89a5a4b614f279644793c26bce0de, 图片删除, /admin/news/delImage, 0, null, bedd76c0189440e7b7e5b475df72651e, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 14:18:52.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c3da668f536a4011b51fec79256266cf, 分类查询, /admin/news/list1, 0, null, bedd76c0189440e7b7e5b475df72651e, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 14:19:08.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [ea6d86d41421421ea18b9c3b132b2873, 查询, /admin/business/list, 0, null, b4fe6c3776e04f52b47a950e1c1d9ddf, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 17:43:17.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [73924906f3104467ade7e7147aa1f4a4, 删除, /admin/business/delete, 0, null, b4fe6c3776e04f52b47a950e1c1d9ddf, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 17:43:34.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [538c5509035f44b69b14ba043d600c7d, 添加, /admin/business/save, 0, null, b4fe6c3776e04f52b47a950e1c1d9ddf, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 17:43:51.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [a31c9329f74b49538d1984e898f83a71, 修改, /admin/business/update, 0, null, b4fe6c3776e04f52b47a950e1c1d9ddf, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 17:47:38.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [1144583f7a0444a8ab77b21b45266a2a, list, /admin/business/lsit1, 0, null, b4fe6c3776e04f52b47a950e1c1d9ddf, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 17:47:56.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [34c2efc143c44ce8847fc30e42503cf2, 删除图片, /admin/business/delImage, 0, null, b4fe6c3776e04f52b47a950e1c1d9ddf, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 17:48:25.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [1a0bf6469da04480a68b56eab5d2a8e7, 查询, /admin/index/list, 0, null, c03b1c929025411baa86d6a1fd405422, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-09 10:18:39.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [3fd4c0d242b34c0e999c28b92d03b75d, 查询, /admin/newsindex/list, 0, null, 2452d60ed3e9485da2e994f8a37e0724, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-09 11:40:11.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [9c4f3ff0c3bf4d39a920193bbd936d83, 查询下拉列表, /admin/partners/list1, 0, null, a6ba0f751f7e4581bbddb639025c0b7b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:22:59.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [5a33e1c95c3f40abb3df2e7a4f74eeb1, 删除图片, /admin/partners/delImage, 0, null, a6ba0f751f7e4581bbddb639025c0b7b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:23:31.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [966660b39a1b4ccdae4dfbedba4a70e3, 查询下拉列表, /admin/slideshow/list1, 0, null, 9815e33e06e94e7b9e841b1620a67408, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:25:22.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [9cf9f072cc16482dbfb103c18e976abf, 删除图片, /admin/slideshow/delImage, 0, null, 9815e33e06e94e7b9e841b1620a67408, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:25:44.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [3d85a10ade434d25b655fd9812befe44, 下拉列表, /admin/contact/list1, 0, null, 1e24340e6c134f2482a6d109bf5530e2, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:29:00.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [8a7bbb4fd4cc45609870f17d2c5a57af, 删除图片, /admin/contact/delImage, 0, null, 1e24340e6c134f2482a6d109bf5530e2, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:29:19.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [4bd6538823964354b08dd8f83f3b7732, 查询列表, /admin/icons/list1, 0, null, df6a527420604c3e976b752259e9dbdb, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:34:29.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [ad32d0d990394c67abede25f96552f74, 删除图片, /admin/icons/delImage, 0, null, df6a527420604c3e976b752259e9dbdb, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:34:49.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [8dd698dd9f1e4342b55bef570432635d, 查询列表, /admin/employment/list1, 0, null, 52d1c6b516f149a8b5b73a8770fa1c29, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:35:32.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [5a1cd97cf7384e18adf8cbd837fbc245, 删除图片, /admin/employment/delImage, 0, null, 52d1c6b516f149a8b5b73a8770fa1c29, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:36:04.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [20641d895f304d35ae75d6d13bc0395b, 删除图片, /admin/cases/delImage, 0, null, db94f58a2fa040a295f1e72198cf1c4b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:36:52.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [684163b22e3f4378b881ed86073a8d0e, 列表查询, /admin/cases/list1, 0, null, db94f58a2fa040a295f1e72198cf1c4b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:37:09.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [925ce727f7884961b9842bda35ca2757, 删除, /admin/index/delete, 0, null, c03b1c929025411baa86d6a1fd405422, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:38:04.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [daa5645d749b4813936d3be65689dd62, 添加, /admin/index/save, 0, null, c03b1c929025411baa86d6a1fd405422, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:38:19.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [12065141820c4783901848d61408cdcc, 修改, /admin/index/update, 0, null, c03b1c929025411baa86d6a1fd405422, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:38:31.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [461aa3c6611247eea7fbfc63c0720be7, 查询列表, /admin/index/list1, 0, null, c03b1c929025411baa86d6a1fd405422, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:38:51.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [ff67ae796c0e47edb0081fc907982348, 删除图片, /admin/index/delImage, 0, null, c03b1c929025411baa86d6a1fd405422, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:39:03.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [6576a8b75c97458eabb81fa58846fe70, 删除, /admin/newsindex/delete, 0, null, 2452d60ed3e9485da2e994f8a37e0724, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:39:35.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [b5ad5011d8564f15b3ba42ff61416bae, 查询列表, /admin/newsindex/list1, 0, null, 2452d60ed3e9485da2e994f8a37e0724, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:39:47.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [8b3312d20b9e4e8aaae71ad311ab9f4f, 添加, /admin/newsindex/save, 0, null, 2452d60ed3e9485da2e994f8a37e0724, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:40:07.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [436b2b0f02bd462f92f72f9acc5f896a, 修改, /admin/newsindex/update, 0, null, 2452d60ed3e9485da2e994f8a37e0724, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:40:19.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [a3959f0c632d4a5b83091467e1266c83, 删除图片, /admin/newsindex/delImage, 0, null, 2452d60ed3e9485da2e994f8a37e0724, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-14 09:40:46.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c06369d2bb514057bb143f5d21921a06, 查询, /admin/businessbyid/list, 0, null, 9d08ffca7de8447b9ba946681beecc83, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-23 16:30:58.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [1f7947f3a9e8427f88ca351de52052dc, 查询list1, /admin/businessbyid/list1, 0, null, 9d08ffca7de8447b9ba946681beecc83, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-23 16:31:11.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [536ec85cab9d4ffead9a64eae4386781, 删除, /admin/businessbyid/delete, 0, null, 9d08ffca7de8447b9ba946681beecc83, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-23 16:31:45.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [d639f282c4e04225b10c8ee04f13df3e, 添加, /admin/businessbyid/save, 0, null, 9d08ffca7de8447b9ba946681beecc83, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-23 16:31:56.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [8eaf9f010aea44a88d7a45cf724b7d88, 修改, /admin/businessbyid/save, 0, null, 9d08ffca7de8447b9ba946681beecc83, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-23 16:32:08.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [31760b5cec0e4b729b9572faf9dbc34f, 查询, /admin/promotion/list, 0, null, 0853fe24f3374a6ebf0971b0c85c4b47, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-23 16:51:28.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [f921a156117b4f7c84c5ae49509f958e, 修改, /admin/promotion/update, 0, null, 0853fe24f3374a6ebf0971b0c85c4b47, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-23 16:51:40.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [88af833c4a594ae2800a09fd7a52e45a, 删除, /admin/promotion/delete, 0, null, 0853fe24f3374a6ebf0971b0c85c4b47, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-23 16:51:51.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [5d66ecba649740d7a9a830258311c1f4, 添加, /admin/promotion/save, 0, null, 0853fe24f3374a6ebf0971b0c85c4b47, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-23 16:52:07.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [4204b719425a44c395581dcf59019ae5, 删除图片, /admin/promotion/delImage, 0, null, 0853fe24f3374a6ebf0971b0c85c4b47, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-23 16:52:31.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [f91f786d6d8b4e3fb492a167ab3c4dc2, 查询, /admin/intellectualization/list, 0, null, d3a6613c2232491980bf75891a94548e, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-23 17:30:11.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [a396aae186934712829348540d2fe965, 修改, /admin/intellectualization/update, 0, null, d3a6613c2232491980bf75891a94548e, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-23 17:30:33.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c109dfcd82f141b8b6ffef4998e14408, 添加, /admin/intellectualization/save, 0, null, d3a6613c2232491980bf75891a94548e, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-23 17:30:45.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [adb1ccc203284f8eb5c74925f330e2dc, 删除, /admin/intellectualization/delete, 0, null, d3a6613c2232491980bf75891a94548e, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-23 17:30:56.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [5755ce7c22954c7faa6a7e26027ae0af, 查询, /admin/data/list, 0, null, 62003e25c5ab444586b81f0dac64cf6b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-24 16:45:19.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [2e63f2ab64334cbb8a48ec76833d10b7, 添加, /admin/data/save, 0, null, 62003e25c5ab444586b81f0dac64cf6b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-24 16:45:30.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [50b74d26d8614a6c83f90ac959c4f214, 删除, /admin/data/delete, 0, null, 62003e25c5ab444586b81f0dac64cf6b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-24 16:45:48.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [8ff63f2b9ce44d5da975f22b70e89f97, 修改, /admin/data/update, 0, null, 62003e25c5ab444586b81f0dac64cf6b, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-24 16:46:03.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [b7a1733d7aa74867960f995d8ab3ccd9, 查询, /admin/chain/list, 0, null, 29584a49bf6d4615b72547dbd7f9a64a, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-24 17:42:58.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [295436fd72904db895a06647d33b0c54, 添加, /admin/chain/save, 0, null, 29584a49bf6d4615b72547dbd7f9a64a, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-24 17:43:15.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [21c3062f3476477ea78b1ac07dd6332d, 删除, /admin/chain/delete, 0, null, 29584a49bf6d4615b72547dbd7f9a64a, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-24 17:43:24.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [6c8441403d864321bf5922a91db4fef1, 修改, /admin/chain/update, 0, null, 29584a49bf6d4615b72547dbd7f9a64a, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-24 17:43:36.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [bcef1de68e3f4bb0b1fc2e143a2c4534, 查询, /admin/chainfinance/list, 0, null, 72c6e9bc55d04d05ab99a910f6f7507a, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-24 17:45:26.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [4588d2b8802849b0a2f422e6c276304e, 添加, /admin/chainfinance/save, 0, null, 72c6e9bc55d04d05ab99a910f6f7507a, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-24 17:45:37.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [74b78771e5344a50bfc91f0bda7e39b0, 修改, /admin/chainfinance/update, 0, null, 72c6e9bc55d04d05ab99a910f6f7507a, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-24 17:45:50.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [ea245e86c6b842babee8b1d0c8100e01, 删除, /admin/chainfinance/delete, 0, null, 72c6e9bc55d04d05ab99a910f6f7507a, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-24 17:46:11.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [ca8e5e14c6ea45f1aff74efd8688c8c2, 项目案例, /project, 0, null, 0, null, _anli, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 15:48:30.0, 2, 项目案例, view/main, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [bb3bbad48be641f09855195b2dbd109f, 智能化案例, Intelligent_case, 0, null, ca8e5e14c6ea45f1aff74efd8688c8c2, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 15:49:27.0, 2, 智能化案例, view/project/Intelligent_case, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [6c01238938bb4c48a90677f7dee092c3, 供应链案例, Supply_case, 0, null, ca8e5e14c6ea45f1aff74efd8688c8c2, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 15:54:20.0, 2, 供应链案例, view/project/Supply_case, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [a730a85181a64d9da62f5ed6b060d95d, 公司业务, /Companybusiness, 0, null, 0, null, _bussi, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 17:00:51.0, 2, 公司业务, view/main, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [a80a08b58c7944c1a0e549ab51b39db5, 大数据, big_data, 0, null, a730a85181a64d9da62f5ed6b060d95d, null, _dashuju___, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 17:01:55.0, 2, 大数据, view/Companybusiness/big_data, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [8fe7d6f1466a45e4be84259be8aaab84, 大健康, busines, 0, null, a730a85181a64d9da62f5ed6b060d95d, null, _jiankang, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 17:15:02.0, 2, 大健康, view/Companybusiness/busines, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [64baf01cab97417d979d43682529bbb0, 智能化, Intellectualization, 0, null, a730a85181a64d9da62f5ed6b060d95d, null, _zhinenghua, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 17:18:55.0, 2, 智能化, view/Companybusiness/Intellectualization, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [e179f0f6219645648b2ca5b45a4691b5, 信息化, promotion, 0, null, a730a85181a64d9da62f5ed6b060d95d, null, _xinxihua, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 17:20:59.0, 2, 信息化, view/Companybusiness/promotion, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [5a01779846314d049f06df308e8a6b87, 供应链, supply, 0, null, a730a85181a64d9da62f5ed6b060d95d, null, _gongyinglian, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 17:23:07.0, 2, 供应链, view/Companybusiness/supply, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [7d644a1ee11843fc912564f918471fc9, 查询, /admin/chain/list, 0, null, 15f091d38aa24fbd976e8ca178e1b7bd, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 17:24:18.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [920ecf6e09e84fb78678ee5ff29b71bc, 招聘管理, /recruit, 0, null, 0, null, _zhaopin, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-28 09:15:28.0, 2, 招聘管理, view/main, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [7bf8b76edc81445c943b7a5d091c3a5d, 招聘职位, icons, 0, null, 920ecf6e09e84fb78678ee5ff29b71bc, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-28 09:17:14.0, 2, 招聘职位, view/recruit/icons, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c10eb46ebf3f4ba7a534e04ef3ac6cf1, 招聘职位详情, employment, 0, null, 920ecf6e09e84fb78678ee5ff29b71bc, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-28 09:19:07.0, 2, 招聘职位详情, view/recruit/employment, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [42f241b3b02a41979844751af28fb024, 首页管理, /home, 0, null, 0, null, _index, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-28 09:25:49.0, 2, 首页管理, view/main, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [e066053f57ce4c8ba75ab97ef1f42d2c, 首页合作伙伴, partners, 0, null, 42f241b3b02a41979844751af28fb024, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-28 09:27:33.0, 2, 首页合作伙伴, view/home/partners, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [195cbde9bfed42bd85aa8b1328faee15, 首页新闻资讯, newsindex, 0, null, 42f241b3b02a41979844751af28fb024, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-28 09:28:32.0, 2, 首页新闻资讯, view/home/newsindex, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [91719986034d4e04a8c72d5df677c470, 首页顶部轮播, slideshow, 0, null, 42f241b3b02a41979844751af28fb024, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-28 09:30:03.0, 2, 首页顶部轮播, view/home/slideshow, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [a05b5b1a12424bfeb4f5d8a7839720f4, 首页项目案例, cases, 0, null, 42f241b3b02a41979844751af28fb024, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-28 09:51:18.0, 2, 首页项目案例, view/home/cases, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [7c55b29b9ad34431ac45fb4e695ef07d, 首页公司业务, business, 0, null, 42f241b3b02a41979844751af28fb024, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-28 09:52:01.0, 2, 首页公司业务, view/home/business, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c2801d63fa99461795f2fadea5cdbd00, 环保化, EnvironmentProtection, 0, null, a730a85181a64d9da62f5ed6b060d95d, null, _huanbao, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-28 10:42:19.0, 2, 环保化, view/Companybusiness/EnvironmentProtection, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [5c48506630e34c0782215621ef067c5b, 环保化案例, Ringcase, 0, null, ca8e5e14c6ea45f1aff74efd8688c8c2, null, null, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-09-28 10:44:01.0, 2, 环保化案例, view/project/Ringcase, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [1495D777724243CE8E77EC3F6E107889, 系统管理, /admin, 10, null, 0, null, _xitong1, 1, null, 2019-03-27 11:14:33.0, 2, sys, view/main, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [F0B5E6DDAA4B428BAA6C86ACB38C1CF1, 用户管理, user, 10, null, 1495D777724243CE8E77EC3F6E107889, null, _yonghu, 1, null, 2019-03-27 11:14:33.0, 2, user, view/sys/user, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [3AB76CED80D04114A2880A4F74FA1D6D, 角色管理, role, 20, null, 1495D777724243CE8E77EC3F6E107889, null, _jiaoseguanli, 1, null, 2019-03-27 11:14:33.0, 2, role, view/sys/role, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [AC69A4F00DF44E09B84298B3506B3F89, 权限管理, popedom, 30, null, 1495D777724243CE8E77EC3F6E107889, null, _jiaoseziliao, 1, null, 2019-03-27 11:14:33.0, 2, popedom, view/sys/popedom, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [B6FFD470D4A54FFDAA1D0A12F94BF225, 系统监控, /monitoring, 50, null, 0, null, _huaban, 1, null, 2019-03-27 11:14:33.0, 2, monitoring, view/main, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [6D56F15C3BF841A581A2A94C0DEDCBA4, 系统审计, /admin, 55, null, 0, null, ios-paper, 1, 0837BE156B8A4DE8B24701F17115B47C, 2019-03-27 11:14:33.0, 2, audit, view/main, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [7FF8F1E4E44441C4AAFEB9D5E98793F2, 多级菜单, /multilevel, 60, null, 0, null, md-menu, 1, 0837BE156B8A4DE8B24701F17115B47C, 2019-03-27 11:14:33.0, 2, 盈实科技商品管理, view/main, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [DCB7C8211FF24AE1B2F4DB9D9EB74DD9, druid, druid, 60, null, B6FFD470D4A54FFDAA1D0A12F94BF225, null, _shujukuguanlizu, 1, null, 2019-03-27 11:14:33.0, 2, druid, view/monitor/druid.vue, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [E8817E45455D4B3D83637907B76461B5, javaMelody, melody, 70, null, B6FFD470D4A54FFDAA1D0A12F94BF225, null, _weiwangguanicon-defuben-, 1, null, 2019-03-27 11:14:33.0, 2, melody, view/monitor/javamelody.vue, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [E50E8C10E04645F2BE80D802D689A3A5, 三级, level_2_2_1, 893, null, F45520653CE24F59BE5D4B28F13FFB76, null, md-funnel, 1, 0837BE156B8A4DE8B24701F17115B47C, 2019-03-27 11:14:33.0, 2, level_2_2_1, view/multilevel/level-2-2/level-3-1.vue, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [a6ba0f751f7e4581bbddb639025c0b7b, 合作伙伴, partners, 920, null, ba6c633934954da1bf397b58e2d206af, null, _jiaoseguanli, 1, 9DE5260188E2451F82FEED173E464A1B, 2020-06-09 14:15:54.0, 2, 合作伙伴, view/yskj, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [0d68aa036fea44c2a69d7fbf8bf705e6, null, /admin/new/save, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [14233ac2cc124813b2999d4f83e3ac19, null, /admin/slideshow/delImage, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [148415ef532344a1a00bc71f7ba0b0df, null, /admin/partners/list1, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [14c7c0b244bf42d2b13bac772523d32c, null, /admin/partners/list, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [237fb0d6cc914aec8ff594569d7cfb00, null, /admin/slideshow/list, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [246441c27ce14bc28aa0783ebc55386d, null, /admin/partners/delImage, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [336ef025a7a5457b867696e4d328b281, null, /admin/news/list1, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [337f1246fdcf479cb109705d1cd90da1, null, /admin/partnerkinds/list, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [3927c21df97a4d1db4dfe35e34973245, null, /admin/slideshow/list1, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [3def1730924e4fa59d6cefb42604dfd1, null, /admin/news/delImage, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [41e96abd77734226aa11a099245b0597, null, /admin/partners/save, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [44d717511c42498783668bd5774940ef, null, /admin/news/update, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [48a45f26fd174b19aaca37a4caffdbd6, null, /admin/partners/delete, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [4af6c25d11954aadb2db5b45e4418680, null, /admin/new/delete, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [55919dd92da2428fafd1095c8b617bcf, null, /admin/slideshow/upload, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [603d45482a1e4947b03074cde86617c2, null, /admin/order1/list, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [6c7bd43e464049f3bf80b30303341810, null, /admin/news/list, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [7942b42c346440eea4d51bc1493cd1f4, null, /admin/partners/upload, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [ad37f0419e154726a5d4e5c1bd1842c7, null, /admin/new/update, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c2e6e8390b4941539a8d4858d17ce28c, null, /admin/news/upload, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c9d24349edc94953a382c82ccc72fa0f, null, /admin/shangping/delete, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [e9a9956cdea2419fab35b565e4a82939, null, /admin/slideshow/save, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [f90479f6f03249b08a71e99545d7d9a3, null, /admin/partners/update, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [ffc8b6da95294f918b5cffd50d8d1da6, null, /admin/new/list1, 0, null, 1495D777724243CE8E77EC3F6E107889, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, null, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [d76316223715444aa247654dbff72888, 查询, /admin/new/list, 0, null, 38455da5e13c418bbd7e6b68d26ea8a6, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-07-21 17:01:56.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [73f9395ec5634b3db34bf59e7a023607, 查询, /admin/shangping/list, 0, null, a3001dd4859941e4a93a3f148e2ec2a1, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-07-24 13:41:10.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [ebc5cf7816c84a4398fb20b961d2ffe3, 查询, /admin/succeed/list, 0, null, 3778382561bd404da207e82b676c28f7, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-07-24 13:45:12.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [32df499ffd434608be35d77246c78528, 添加, /admin/news/save, 0, null, bedd76c0189440e7b7e5b475df72651e, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-07-31 09:22:49.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [9625756b881043b48d4b046d96858094, 修改, /admin/succeed/update, 0, null, 3778382561bd404da207e82b676c28f7, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-08-03 14:07:27.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [72cd2b2332184237b48d00fe0f3a7452, 查询, /admin/contact/list, 0, null, 1e24340e6c134f2482a6d109bf5530e2, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-08-04 09:36:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [3215defa8dad4bad867412259e57dcda, 删除, /admin/contact/delete, 0, null, 1e24340e6c134f2482a6d109bf5530e2, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-08-04 09:37:06.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [e4bfd4b60d154dbc82a0176e893cd635, 查询, /admin/employment/list, 0, null, 52d1c6b516f149a8b5b73a8770fa1c29, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-08-10 10:19:44.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [4fece2dca0db4b84817e9fcfcb8da2a0, 添加, /admin/employment/save, 0, null, 52d1c6b516f149a8b5b73a8770fa1c29, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-08-10 10:20:06.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [05c2839c99294d10956e8c6e3f88adaf, 修改, /admin/news/update, 0, null, bedd76c0189440e7b7e5b475df72651e, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 10:08:38.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [9e5ab8eb2274424ca1dd868e67ca0f73, 删除, /admin/news/delete, 0, null, bedd76c0189440e7b7e5b475df72651e, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-09-07 10:08:53.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [fd32b3a01b11445ca9e30efb5a8bd304, 查询, /admin/case/list, 0, null, bb3bbad48be641f09855195b2dbd109f, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 15:49:51.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [2a46073b30584e85b8bda487c3cfc2d7, 查询, /admin/chainfinance/list, 0, null, 6c01238938bb4c48a90677f7dee092c3, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 15:54:49.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [6f324899b3d745828d0f20ba485b2059, 查询, /admin/businessbyid/list, 0, null, a80a08b58c7944c1a0e549ab51b39db5, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 17:02:37.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c0ee2634826d4f6286cfc97ded41bf59, 查询, /admin/businessbyid/list, 0, null, 8fe7d6f1466a45e4be84259be8aaab84, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 17:16:02.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [71a0d0ce54344e75b112334e0ff8c15f, 查询, /admin/chain/list, 0, null, 5a01779846314d049f06df308e8a6b87, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 17:25:42.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [245901fbc2d7467d9aba6d2659de2c8f, 查询, /admin/intellectualization/list, 0, null, 64baf01cab97417d979d43682529bbb0, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 17:26:23.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c6b8aaba2e7140fcac1315fe459320bf, 查询, /admin/promotion/list, 0, null, e179f0f6219645648b2ca5b45a4691b5, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-09-27 17:27:04.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [3157734ed9394943a2b6d8540b47fa38, 查询, /admin/icons/list, 0, null, 7bf8b76edc81445c943b7a5d091c3a5d, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-09-28 09:17:50.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [91c011f25d594a53bd6bc9f70d411e9b, 查询, /admin/employment/list, 0, null, c10eb46ebf3f4ba7a534e04ef3ac6cf1, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-09-28 09:20:11.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [6f5c1834857243d89d8a8df1e1697415, 查询, /admin/index/list, 0, null, e066053f57ce4c8ba75ab97ef1f42d2c, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2020-09-28 09:37:22.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c9c1f71cca5941b39ef391229139c91d, 批量删除, /admin/user/batchDelete, 894, null, F0B5E6DDAA4B428BAA6C86ACB38C1CF1, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [ca367cb6896e41ec849e19a4a5b47fd9, 批量保存角色, /admin/user/batchSaveRole, 895, null, F0B5E6DDAA4B428BAA6C86ACB38C1CF1, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [678ac3f5916a4b8ab83b0d7144df9902, 删除, /admin/user/delete, 896, null, F0B5E6DDAA4B428BAA6C86ACB38C1CF1, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [4da5621ddc9f4a8c86277d1f863b70d3, 是否禁用, /admin/user/isDisable, 897, null, F0B5E6DDAA4B428BAA6C86ACB38C1CF1, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [3f83ecb6cd2d4d17aa5f59e83d308997, 列表, /admin/user/list, 898, null, F0B5E6DDAA4B428BAA6C86ACB38C1CF1, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [e6b12691dee642e5ac03e75685fb8eb5, 重置密码, /admin/user/resetPwd, 899, null, F0B5E6DDAA4B428BAA6C86ACB38C1CF1, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [957fa7ef2c3d4e41ba6f8fada8404467, 用户角色列表, /admin/user/roleListByUserId, 900, null, F0B5E6DDAA4B428BAA6C86ACB38C1CF1, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [09b7e6702f8f47de9f35e10ccf640273, 保存, /admin/user/save, 901, null, F0B5E6DDAA4B428BAA6C86ACB38C1CF1, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [f680e917c7d24955a01e5677d42731f2, 保存角色, /admin/user/saveRole, 902, null, F0B5E6DDAA4B428BAA6C86ACB38C1CF1, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [15e88343bbe141e6aa145135569a8f1a, 更新, /admin/user/update, 903, null, F0B5E6DDAA4B428BAA6C86ACB38C1CF1, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c1ccd7481c1247df9011bb26a60cb996, 修改密码, /admin/user/updatePwd, 904, null, F0B5E6DDAA4B428BAA6C86ACB38C1CF1, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [211d4d1a09ff44b9874f0fec993eb741, 批量删除, /admin/role/batchDelete, 905, null, 3AB76CED80D04114A2880A4F74FA1D6D, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [848db323f1e94d1e8209d36e7631f6c4, 批量赋权, /admin/role/batchSavePopedom, 906, null, 3AB76CED80D04114A2880A4F74FA1D6D, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [5f36469613f149109c813382fe245216, 删除, /admin/role/delete, 907, null, 3AB76CED80D04114A2880A4F74FA1D6D, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [ddb99f19a06541f69c52ab12660f2680, 列表, /admin/role/list, 908, null, 3AB76CED80D04114A2880A4F74FA1D6D, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [260c549d07574676994c4176a17c6831, 角色权限列表, /admin/role/popedomListByRoleId, 909, null, 3AB76CED80D04114A2880A4F74FA1D6D, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [fdda18c73bda4f779ce8baee4fed8ff3, 保存, /admin/role/save, 910, null, 3AB76CED80D04114A2880A4F74FA1D6D, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c5541f7567654b3fb216b8ea35c8fc6b, 保存权限, /admin/role/savePopedom, 911, null, 3AB76CED80D04114A2880A4F74FA1D6D, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [0f1e444016a1443585715b9f693056fb, 更新, /admin/role/update, 912, null, 3AB76CED80D04114A2880A4F74FA1D6D, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [24d74edc4e814c20aae8814f165e623e, 批量删除, /admin/popedom/batchDelete, 913, null, AC69A4F00DF44E09B84298B3506B3F89, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [5d3960cda950486e8656e5efaee97000, 删除, /admin/popedom/delete, 914, null, AC69A4F00DF44E09B84298B3506B3F89, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [c23cc04af1834c9eaa2432b7a9967b26, 列表, /admin/popedom/list, 915, null, AC69A4F00DF44E09B84298B3506B3F89, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [1cbf20c901b843d5b012cbf22747a6ad, 保存, /admin/popedom/save, 916, null, AC69A4F00DF44E09B84298B3506B3F89, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [b153a6e3468747d3824567d1542d5e2e, 同步权限, /admin/popedom/syncPopedom, 917, null, AC69A4F00DF44E09B84298B3506B3F89, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [675156b69b7b49cc92f5bd7c2f3b9917, 更新, /admin/popedom/update, 918, null, AC69A4F00DF44E09B84298B3506B3F89, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} Result: [e27fcd0bd3f946b28d605069795b0e70, 列表, /admin/log/list, 919, null, FF9C8A3D93E548FCBB06C4525F93CEFE, null, null, 2, 9DE5260188E2451F82FEED173E464A1B, 2019-04-13 21:37:16.0, 2, null, null, null, 2, 2]
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20039, rs-50039} closed
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20039} clearParameters. 
+2020-10-09 08:58:21 上午 [Thread: XNIO-1 task-3][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} pool-recycle
+2020-10-09 08:58:25 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} pool-connect
+2020-10-09 08:58:25 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20040} created. select count(*) FROM  partners     JOIN  partnerkinds  ON  partners.pkid =partnerkinds.id  WHERE createdate is not  NULL
+
+2020-10-09 08:58:25 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20040} Parameters : []
+2020-10-09 08:58:25 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20040} Types : []
+2020-10-09 08:58:25 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20040, rs-50040} query executed. 939.3597 millis. select count(*) FROM  partners     JOIN  partnerkinds  ON  partners.pkid =partnerkinds.id  WHERE createdate is not  NULL
+
+2020-10-09 08:58:25 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20040, rs-50040} open
+2020-10-09 08:58:25 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20040, rs-50040} Header: [count(*)]
+2020-10-09 08:58:25 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20040, rs-50040} Result: [82]
+2020-10-09 08:58:25 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20040, rs-50040} closed
+2020-10-09 08:58:25 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20040} clearParameters. 
+2020-10-09 08:58:25 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20041} created. SELECT partners.id,partners.banner,partners.cover,partners.createdate,partners.pkid,partners.introduce,partners.pname,partners.pictures,partnerkinds.id as ids,partnerkinds.kinds  FROM  partners     JOIN  partnerkinds  ON  partners.pkid =partnerkinds.id  WHERE createdate is not  NULL
+ limit 0, 10
+2020-10-09 08:58:25 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20041} Parameters : []
+2020-10-09 08:58:25 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20041} Types : []
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20041, rs-50041} query executed. 228.2224 millis. SELECT partners.id,partners.banner,partners.cover,partners.createdate,partners.pkid,partners.introduce,partners.pname,partners.pictures,partnerkinds.id as ids,partnerkinds.kinds  FROM  partners     JOIN  partnerkinds  ON  partners.pkid =partnerkinds.id  WHERE createdate is not  NULL
+ limit 0, 10
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20041, rs-50041} open
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20041, rs-50041} Header: [id, banner, cover, createdate, pkid, introduce, pname, pictures, id, kinds]
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20041, rs-50041} Result: [47, null, all/f646505c33dc441ca03bab40ea412e70.png, 2019-09-12 16:59:22.0, 1, <p>联合国环境规划署中文简称“环境署”，是联合国系统内负责全球环境事务的牵头部门和权威机构，环境署激发、提倡、教育和促进全球资源的合理利用并推动全球环境的可持续发展。&nbsp;</p><p>1972年12月15日，联合国大会作出建立环境规划署的决议。1973年1月，作为联合国统筹全世界环保工作的组织，联合国环境规划署（United Nations Environment Programme，简称UNEP）正式成立。</p><p>环境规划署的临时总部设在瑞士日内瓦，后于同年10月迁至肯尼亚首都内罗毕。环境规划署是一个业务性的辅助机构，它每年通过联合国经济和社会理事会向大会报告自己的活动。</p><p>联合国环境规划署（UNEP--United Nations Environment Programme，简称 UNEP）成立于1972年，总部设在肯尼亚首都内罗毕，是全球仅有的两个将总部设在发展中国家的联合国机构之一。所有联合国成员国、专门机构成员和国际原子能机构成员均可加入环境署。到2009年，已有100多个国家参加其活动。在国际社会和各国政府对全球环境状况及世界可持续发展前景愈加深切关注的21世纪，环境署受到越来越高度的重视，并且正在发挥着不可替代的关键作用。 [3]&nbsp;</p><p>联合国环境规划署的使命是“激发、推动和促进各国及其人民在不损害子孙后代生活质量的前提下提高自身生活质量，领导并推动各国建立保护环境的伙伴关系。”任务是“作为全球环境的权威代言人行事，帮助各政府设定全球环境议程，以及促进在联合国系统内协调一致地实施可持续发展的环境层面。” [1]&nbsp;</p><p>联合国环境规划署的宗旨是：促进环境领域内的国际合作，并提出政策建议；在联合国系统内提供指导和协调环境规划总政策，并审查规划的定期报告；审查世界环境状况，以确保可能出现的具有广泛国际影响的环境问题得到各国政府的适当考虑；经常审查国家和国际环境政策和措施对发展中国家带来的影响和费用增加的问题；促进环境知识的取得和情报的交流。</p><p>联合国环境规划署的主要职责是：贯彻执行环境规划理事会的各项决定；根据理事会的政策指导提出联合国环境活动的中、远期规划；制订、执行和协调各项环境方案的活动计划；向理事会提出审议的事项以及有关环境的报告；管理环境基金；就环境规划向联合国系统内的各政府机构提供咨询意见等。</p>, 联合国环境规划署, all/eff874a16f8e49f696b09e0ad1a635bc.png, 1, 政府|Governments]
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20041, rs-50041} Result: [48, null, all/4b05e3d68968491caa5aee9bed529059.png, 2019-09-12 17:00:42.0, 1, <p>新加坡环境及水源部（Ministry of the Environment and Water Resources，MEWR）是新加坡政府负责提供一个优质的生活环境和高标准的公共健康，防止传染病蔓延的部门。它在1972年成立。今天，它结合了两个法定机构 - 新加坡国家环境局和新加坡公用事业局。</p><p>环境与水资源部（MEWR）致力于为新加坡人提供一个清洁，可持续的环境，并提供安全的食品和水。</p><p>气候适应力：应对气候变化的潜在威胁特别是海平面上升和应付气温上升以及改变降雨模式以维持宜居的环境。&nbsp;</p><p>经济弹性：确保未来的新加坡经济通过克服碳和资源限制保持竞争力，并促使利益相关者实现可持续的经济增长。</p><p>资源弹性：确保安全可靠地供应关键资源，即水和粮食，并克服全球通过最大化资源效率来限制资源和关闭我们的资源循环。&nbsp;</p>, 新加坡环境及水源部, all/a141115a61a04f5ba26e3070abafce3f.png, 1, 政府|Governments]
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20041, rs-50041} Result: [49, null, all/669ab9016aab4a829b7d12d2ea5e7d08.png, 2019-09-12 17:01:15.0, 1, <p>意大利政府主管环境保护的部门是意大利环境及国土部，该部的主要职责是拟订国家环境保护政策、规划，起草法律法规草案，制定部门规章，组织制定各类环境保护标准、基准和技术规范，监督法规和规章的执行。该部负责意大利国土、海洋、河流、湿地、山林等环境资源的保护工作。</p><p>意大利对排污设施、设备的建设管理，以及对废弃物进行综合利用方面需符合欧盟标准，严禁以破坏环境资源换取商业利益。违规处罚包括对环境损害进行赔偿、要求恢复环境原貌甚至停止项目运作。意大利环保法律法规遵循欧盟有关法律和指令，特别是欧盟对其进口、生产和使用化学物质进行注册、评估、授权和限制的第1907/2006号法规（简称REACH法规）。</p><p>为保护森林和动植物，意大利设立了自然保护区、国家公园和湿地公园。目前，上述保护区总面积约为130万公顷。另外，地方政府负责本区域内森林等的保护，对大型树木进行砍伐前需要报市政当局审批。</p><p>此外，意大利于2003年将环境法与财政法案联系在一起，可以使环境保护在预算上先行列支，使环境保护的投入更加明确。意大利对环境保护的投入大约占GDP的1％。意大利在制定环境保护政策上的主导原则是，以鼓励环保者为主旨，以预防为主，不以惩罚污染者为目的。因此，在税收法律方面有鼓励在环境保护上的投入的措施。&nbsp;</p>, 意大利环境部, all/f4d630e124e04bd99bc5dcbfda4588e5.png, 1, 政府|Governments]
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20041, rs-50041} Result: [50, null, 中华人民共和国生态环境部.png, 2019-09-12 17:01:42.0, 1, <p>	中华人民共和国生态环境部是国务院组成部门，为正部级，对外保留国家核安全局牌子，加挂国家消耗臭氧层物质进出口管理办公室牌子。</p><p>	2018年3月根据第十三届全国人民代表大会第一次会议批准的国务院机构改革方案设立。</p><p>	三定方案见词条：生态环境部职能配置、内设机构和人员编制规定。</p><p>	生态环境部启用办公新址，并于2019年9月22日上午举行了揭牌仪式，新址位于北京东城区东长安街12号。</p><p>	生态环境部贯彻落实党中央关于生态环境保护工作的方针政策和决策部署，在履行职责过程中坚持和加强党对生态环境保护工作的集中统一领导。主要职责是：</p><p>（一）负责建立健全生态环境基本制度。会同有关部门拟订国家生态环境政策、规划并组织实施，起草法律法规草案，制定部门规章。会同有关部门编制并监督实施重点区域、流域、海域、饮用水水源地生态环境规划和水功能区划，组织拟订生态环境标准，制定生态环境基准和技术规范。</p><p>（二）负责重大生态环境问题的统筹协调和监督管理。牵头协调重特大环境污染事故和生态破坏事件的调查处理，指导协调地方政府对重特大突发生态环境事件的应急、预警工作，牵头指导实施生态环境损害赔偿制度，协调解决有关跨区域环境污染纠纷，统筹协调国家重点区域、流域、海域生态环境保护工作。</p><p>（三）负责监督管理国家减排目标的落实。组织制定陆地和海洋各类污染物排放总量控制、排污许可证制度并监督实施，确定大气、水、海洋等纳污能力，提出实施总量控制的污染物名称和控制指标，监督检查各地污染物减排任务完成情况，实施生态环境保护目标责任制。</p><p>（四）负责提出生态环境领域固定资产投资规模和方向、国家财政性资金安排的意见，按国务院规定权限审批、核准国家规划内和年度计划规模内固定资产投资项目，配合有关部门做好组织实施和监督工作。参与指导推动循环经济和生态环保产业发展。</p><p>（五）负责环境污染防治的监督管理。制定大气、水、海洋、土壤、噪声、光、恶臭、固体废物、化学品、机动车等的污染防治管理制度并监督实施。会同有关部门监督管理饮用水水源地生态环境保护工作，组织指导城乡生态环境综合整治工作，监督指导农业面源污染治理工作。监督指导区域大气环境保护工作，组织实施区域大气污染联防联控协作机制。</p><p>（六）指导协调和监督生态保护修复工作。组织编制生态保护规划，监督对生态环境有影响的自然资源开发利用活动、重要生态环境建设和生态破坏恢复工作。组织制定各类自然保护地生态环境监管制度并监督执法。监督野生动植物保护、湿地生态环境保护、荒漠化防治等工作。指导协调和监督农村生态环境保护，监督生物技术环境安全，牵头生物物种（含遗传资源）工作，组织协调生物多样性保护工作，参与生态保护补偿工作。</p><p>（七）负责核与辐射安全的监督管理。拟订有关政策、规划、标准，牵头负责核安全工作协调机制有关工作，参与核事故应急处理，负责辐射环境事故应急处理工作。监督管理核设施和放射源安全，监督管理核设施、核技术应用、电磁辐射、伴有放射性矿产资源开发利用中的污染防治。对核材料管制和民用核安全设备设计、制造、安装及无损检验活动实施监督管理。</p><p>（八）负责生态环境准入的监督管理。受国务院委托对重大经济和技术政策、发展规划以及重大经济开发计划进行环境影响评价。按国家规定审批或审查重大开发建设区域、规划、项目环境影响评价文件。拟订并组织实施生态环境准入清单。</p><p>（九）负责生态环境监测工作。制定生态环境监测制度和规范、拟订相关标准并监督实施。会同有关部门统一规划生态环境质量监测站点设置，组织实施生态环境质量监测、污染源监督性监测、温室气体减排监测、应急监测。组织对生态环境质量状况进行调查评价、预警预测，组织建设和管理国家生态环境监测网和全国生态环境信息网。建立和实行生态环境质量公告制度，统一发布国家生态环境综合性报告和重大生态环境信息。</p><p>（十）负责应对气候变化工作。组织拟订应对气候变化及温室气体减排重大战略、规划和政策。与有关部门共同牵头组织参加气候变化国际谈判。负责国家履行联合国气候变化框架公约相关工作。</p><p>（十一）组织开展中央生态环境保护督察。建立健全生态环境保护督察制度，组织协调中央生态环境保护督察工作，根据授权对各地区各有关部门贯彻落实中央生态环境保护决策部署情况进行督察问责。指导地方开展生态环境保护督察工作。</p><p>（十二）统一负责生态环境监督执法。组织开展全国生态环境保护执法检查活动。查处重大生态环境违法问题。指导全国生态环境保护综合执法队伍建设和业务工作。</p><p>（十三）组织指导和协调生态环境宣传教育工作，制定并组织实施生态环境保护宣传教育纲要，推动社会组织和公众参与生态环境保护。开展生态环境科技工作，组织生态环境重大科学研究和技术工程示范，推动生态环境技术管理体系建设。</p><p>（十四）开展生态环境国际合作交流，研究提出国际生态环境合作中有关问题的建议，组织协调有关生态环境国际条约的履约工作，参与处理涉外生态环境事务，参与全球陆地和海洋生态环境治理相关工作。</p><p>（十五）完成党中央、国务院交办的其他任务。</p><p>（十六）职能转变。生态环境部要统一行使生态和城乡各类污染排放监管与行政执法职责，切实履行监管责任，全面落实大气、水、土壤污染防治行动计划，大幅减少进口固体废物种类和数量直至全面禁止洋垃圾入境。构建政府为主导、企业为主体、社会组织和公众共同参与的生态环境治理体系，实行最严格的生态环境保护制度，严守生态保护红线和环境质量底线，坚决打好污染防治攻坚战，保障国家生态安全，建设美丽中国。</p>, 中华人民共和国生态环境部, all/62a7c8d0e0ac4770871a7900dc843f63.png, 1, 政府|Governments]
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20041, rs-50041} Result: [51, null, 生态环境部对外合作与交流中心.png, 2019-09-12 17:02:09.0, 1, <p>	环境保护部环境保护对外合作中心是环境保护部直属事业单位。1989年底，原国家环境保护局环境保护对外经济合作领导小组办公室（外经办）成立，主要负责国外技术援助贷款项目的管理。1997年5月，正式成立了环境保护对外合作中心，与外经办两块牌子，一套人马，负责我国环境保护领域利用国际金融组织资金、履约项目资金、双边援助资金及其他对外环境合作事务的管理工作。为进一步加强环境国际公约履约工作，2016年1月，中央编办批复对外合作中心加挂环境保护部环境公约履约技术中心牌子，主要负责组织开展环境公约政策研究，参与相关环境公约谈判，承担国内履约活动的具体技术性、事务性工作。</p><p>	经过25年的发展，对外合作中心逐步发展形成了以履行环保国际公约、开展双边多边环境项目合作、加强全球环境政策研究为主，以环保国际咨询和服务为辅的“三主一辅”业务体系。形成了“一套业务、一个平台、一套机制、一支队伍、一幢大楼、一种文化”的“六个一”物质精神财富，确立了自身的使命（Mission）、目标（Aim）、定位（Role）、理念（Idea）、战略（Strategy）。除此以外，中心还内设由财政部和原国家环保总局联合成立的中国全球环境基金工作秘书处，并于2015年获批全球环境基金国家执行机构（NIE）资质，组织、指导GEF项目的开发和实施。2015年，中心党委荣获2012-2015年度部直属机关先进党委称号，中心荣获2012-2014年度首都文明单位称号并连续保持中央国家机关文明单位称号。</p><p>	成立以来，对外合作中心始终坚持围绕环保中心工作，充分发挥立足国内、面向国际的前沿优势和环境保护对外合作的桥梁和窗口作用，不断推动各项工作向前发展。在环境国际公约履约方面，承担着《维也纳公约》及其《蒙特利尔议定书》，《斯德哥尔摩公约》，《生物多样性公约》及其《生物安全议定书》、《名古屋议定书》，《关于汞的水俣公约》等履约具体工作，在履约过程中形成了覆盖公约前瞻性研究、谈判、签约、履约和评估全过程的支撑体系，履约成效得到国内外高度评价，多次获得国际社会嘉奖和肯定。在双多边合作方面，同世行、亚行等联合国机构、国际组织以及意大利、欧盟、德国、瑞典和美国等十几个国家和地区开展合作，通过直接引进国际环保资金、协助引进世行、亚行贷款等方式，有力支持了三河三湖治理等国家环保重点工作，推动了一大批国内环保理念举措的创新，为国内环境保护管理工作提供有力支撑。在全球环境政策研究方面，开展973、863计划等多项国家重大课题研究，跟踪与研究全球环境热点问题、环境政策动态，多项研究成果被党中央、国务院采纳、参考。在国际咨询服务方面，开发了清洁发展机制下温室气体排放交易项目，实现的温室气体减排累计占到全球签发量的15%，中国的25%，为应对气候变化做出突出贡献。</p><p>	近几年来，中心坚持“以持续发展为方向，以经济效益为导向，以增强实力为目标，在创新中发展，在发展中创新，巩固和拓展‘三主一辅’职能定位”的总体发展思路，圆满完成各方面工作任务。中心围绕环保部改善环境质量的总体目标以及环保重点工作，助力绿色发展，搭建了大气、水、土壤污染防治及节能减排环保技术国际智汇平台（3iPET），积极推动环境金融创新和环保投融资平台建设,支持新环保法、水气土等法律法规修订和实施，编写国家行政学院高中级公务员培训教材《国家环保政策读本》，开展空气源热泵替代燃煤采暖示范项目，探索减少散煤污染排放，开展国家温室气体自愿减排项目审定与核证工作，环境国际公约履约和双多边合作成效显著，中心保持快速发展的良好势头。</p><p>	面对新形势，中心将按照“五位一体”总体布局和“四个全面”战略布局，贯彻五大发展理念，进一步解放思想，转型创新，以全球化的视野，做国际化的事业，深化公约履约，拓展服务平台，加强政策研究，着力提升服务环保大局的能力和水平，坚持不懈地推进改善环境质量，补齐生态环境突出短板，为建设美丽中国、走向生态文明新时代做出更大贡献。</p><p><br></p><p>	</p>, 生态环境部对外合作与交流中心, all/15fe6aaf54694e9ea3fbe00bea210af7.png, 1, 政府|Governments]
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20041, rs-50041} Result: [76, null, 联合国儿童基金会.png, 2019-09-23 10:28:37.0, 1, <p>	联合国儿童基金会（United Nations International Children's Emergency Fund，简称UNICEF），原名“联合国国际儿童紧急救助基金会”，于1946年12月11日创建，最初目的是满足第二次世界大战之后欧洲与中国儿童的紧急需求。</p><p>	1950年起，它的工作扩展到满足全球所有发展中国家儿童和母亲的长期需求。1953年，UNICEF成为联合国系统的永久成员，并受联合国大会的委托致力于实现全球各国母婴和儿童的生存、发展、受保护和参与的权利。1965年，联合国儿童基金会由于“促进国家间的手足情谊”而获得诺贝尔和平奖。2017年11月21日，中国政府向联合国儿童基金会捐款200万美元，用于救助索马里受旱灾影响的儿童。</p><p>	合作开展了多个重大试点项目，率先在卫生和营养、教育、儿童保护、艾滋病、水和环境卫生，以及灾害应急响应和备灾等领域开拓了经证实成功的最佳做法。这些试点项目在更大范围内得到推广，并对国家的项目和政策制定产生了一定的影响。&nbsp;</p>, 联合国儿童基金会, all/761b9a406cfc421db8895d64b29fec8d.png, 1, 政府|Governments]
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20041, rs-50041} Result: [77, null, 联合国工业发展组织.png, 2019-09-23 10:35:19.0, 1, <p>	联合国工业发展组织（United Nations Industrial Development Organization -- UNIDO）是联合国大会的多边技术援助机构，成立于1966年，1985年6月正式改为联合国专门机构。总部设在奥地利维也纳。任务是“帮助促进和加速发展中国家的工业化和协调联合国系统在工业发展方面的活动”。 宗旨是通过开展技术援助和工业合作促进发展中国家和经济转型国家的经济发展和工业化进程。除作为一个全球性的政府间有关工业领域问题的论坛外，其主要活动是通过一系列的综合服务，在政策、机构和企业三个层次上帮助广大发展中国家和经济转型国家提高经济竞争力，改善环境，增加生产性就业。</p><p>	组织机构有大会为最高权力机构，每4年召开一次；理事会由成员国中选出53个理事国组成，每年举行一次例会。另外还有方案和预算委员会和秘书处。至1996年9月，工发组织在12个国家设立了投资服务办公室，这些办公室主要提供项目协调、建立合资企业、提供财政资助、技术转让和市场等方面的服务。（分支机构设在：雅典、麦纳麦（巴林）、北京、伊斯坦布尔、米兰、莫斯科、巴黎、首尔、东京、华沙、苏黎世和维也纳）。</p><p>	据统计，目前正在执行中的工发组织与我国合作项目总金额约5，000万美元，其执行额占该组织全球执行额的1/5左右，占亚太地区执行额的一半以上。项目内容涉及环境保护、工业管理、投资与技术促进、中小企业发展、供应链管理及综合方案等领域。同时，工发组织还将在我国建立南南工业合作中心，促进我与非洲等发展中国家的合作。通过这些项目，工发组织不但为我国引进了先进的技术、经验和部分设备，而且还邀请了大量的国际专家为我服务，同时对我国大批技术人员在境内外进行各种形式的培训，对我国工业发展和进步起了有效的促进作用。</p><p>	工发组织作为开发计划署、蒙特利尔议定书、全球环境基金和持久性有机污染物项目的执行机构，在执行我国受援项目，促进我国环保事业发展方面作出了较大贡献。近年来，在中国政府和工发组织的共同努力下，双方近年来又开拓了信托基金（TRUST FUND）项目，主要涉及可持续能源、投资促进、供应链管理及帮助中小企业提高竞争能力等领域。</p>, 联合国工业发展组织, all/7c8d3c77e0c44f07a421ab5f1875f558.png, 1, 政府|Governments]
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20041, rs-50041} Result: [78, null, 联合国欧洲经济委员会.png, 2019-09-23 10:35:40.0, 1, <p>	联合国欧洲经济委员会（英文：the United Nations Economic Commission for Europe，缩写：UNECE或者ECE），建于1947年，是联合国经济及社会理事会下属的五个地区委员会之一，主要职责是促进成员国之间的经济合作。委员会目前有56个成员，除了欧洲国家外，还包括美国、加拿大、以色列和中亚国家。委员会总部位于瑞士日内瓦。</p><p>	联合国欧洲经济委员会是一个旨在促进56个成员国 经济整合与合作的多边平台，致力于通过以下活动促进可持续发展和经济繁荣：政策对话，国际法谈判，制订法规和标准，推广和应用最佳实践案例，经济及技术经验和专业技能，促进经济转型国家的技术合作。</p>, 联合国欧洲经济委员会, all/49c53a6f543946b28c63d63eafd69dcf.png, 1, 政府|Governments]
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20041, rs-50041} Result: [79, null, 联合国教科文组织国际创意与可持续发展中心.png, 2019-09-23 10:36:01.0, 1, <p>	国际创意与可持续发展中心，是继2012年北京成为联合国教科文组织创意城市网络“设计之都”、2013年举办联合国教科文组织创意城市“北京峰会”、2014年赴巴黎联合国教科文组织总部举办“感知中国，设计北京”展览之后，北京“主动参与联合国2030年可持续发展议程”的又一举措。</p><p>	此次设立“国际创意与可持续发展中心”的目标是在联合国“2030年可持续发展议程”的背景下，将通过创造力和文化表现形式多样性，促进包容性经济增长，支持教科文组织在促进文化、创意与可持续发展方面做出的努力。</p><p>	该中心的主要工作一是设立全球创意知识库，发展成为该领域“思想实验室”。同各国一道研究和交流适合各自国情的发展理论和发展实践，并在地区和国际上充当分享知识的信息交流中心，为国际社会提供经验、标准和范例。二是协助教科文组织会员国进行能力建设。为初创小微创意企业提供技能培训和孵化支持，帮助各国尤其是发展中国家的妇女和青年提高创意技能和商业运营能力。三是构建文化、创意和可持续发展的创意网络。建立开放的数据平台和实施示范项目，促进“南南”合作、“北南”合作。创新合作模式，积极鼓励和吸引企业和社会力量参与中心建设。</p>, 联合国教科文组织国际创意与可持续发展, all/b13cb0aa763040a19a90c386d6c0decd.png, 1, 政府|Governments]
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20041, rs-50041} Result: [130, null, all/874bc3f917984ea3a46fcdcd71faecaa.png, 2020-09-07 17:30:33.0, 1, null, 工业和信息化部, all/9bc7258ba8bb4f07ba91e54eb7ad7401.png, 1, 政府|Governments]
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.ResultSet >> Method: com.alibaba.druid.filter.logging.Log4jFilter.resultSetLog(Log4jFilter.java:142) ]
+DEBUG:{conn-10001, pstmt-20041, rs-50041} closed
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.Statement >> Method: com.alibaba.druid.filter.logging.Log4jFilter.statementLog(Log4jFilter.java:137) ]
+DEBUG:{conn-10001, pstmt-20041} clearParameters. 
+2020-10-09 08:58:26 上午 [Thread: XNIO-1 task-4][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} pool-recycle
+2020-10-09 09:07:04 上午 [Thread: javamelody SoJpt][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10001} closed
+2020-10-09 09:07:26 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10002,procId-2377} connected
+2020-10-09 09:07:27 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10002} closed
+2020-10-09 09:07:43 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10003,procId-2378} connected
+2020-10-09 09:07:44 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10003} closed
+2020-10-09 09:08:09 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10004,procId-2379} connected
+2020-10-09 09:08:10 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10004} closed
+2020-10-09 09:08:37 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10005,procId-2380} connected
+2020-10-09 09:08:38 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10005} closed
+2020-10-09 09:09:17 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10006,procId-2381} connected
+2020-10-09 09:09:18 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10006} closed
+2020-10-09 09:09:47 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10007,procId-2382} connected
+2020-10-09 09:09:48 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10007} closed
+2020-10-09 09:10:11 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10008,procId-2383} connected
+2020-10-09 09:10:12 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10008} closed
+2020-10-09 09:10:34 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10009,procId-2384} connected
+2020-10-09 09:10:35 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10009} closed
+2020-10-09 09:11:06 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10010,procId-2385} connected
+2020-10-09 09:11:07 上午 [Thread: Druid-ConnectionPool-Create-1817963473][ Class:druid.sql.Connection >> Method: com.alibaba.druid.filter.logging.Log4jFilter.connectionLog(Log4jFilter.java:132) ]
+DEBUG:{conn-10010} closed

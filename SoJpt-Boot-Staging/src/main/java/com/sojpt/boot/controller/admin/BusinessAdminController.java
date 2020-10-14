@@ -42,6 +42,7 @@ public class BusinessAdminController extends IViewController {
         Page<Record> page = Db.paginate(pageNumber(), pageSize(), sqlPara);
         renderJson(page);
     }
+    @RequestMapping("save")
     public void save() {
         Business business = getModel(Business.class, "business");
         if(business.save()) {
@@ -54,7 +55,7 @@ public class BusinessAdminController extends IViewController {
     public void update() {
         Business business = getModel(Business.class, "business");
 
-        System.out.println(business.getBusinesstitle());
+
         if(business.update()) {
             renderJson(Ret.ok());
         } else {
@@ -97,7 +98,7 @@ public class BusinessAdminController extends IViewController {
         renderJson(Ret.ok());
         return;
     }
-
+    @RequestMapping("delete")
     public void delete() {
         Business business = getModel(Business.class, "business");
         if(Business.dao.deleteById(business.getId())) {

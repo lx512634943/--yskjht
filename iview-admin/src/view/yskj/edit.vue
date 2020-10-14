@@ -54,6 +54,43 @@
         <img :src=" getImageUrl(imageUrl)" v-if="visible" style="width: 100%;height:200px;">
       </Modal>
 
+
+
+      <FormItem label="合作伙伴轮播图" prop="pictures" :label-width="100">
+        <div class="demo-upload-list" v-if="formPartners.pictures">
+          <template v-if="formPartners.pictures">
+            <img :src="getImageUrl(formPartners.pictures)" >
+            <div class="demo-upload-list-cover">
+              <Icon type="ios-eye-outline" @click.native="handleView1(formPartners.pictures)" ></Icon>
+              <Icon type="ios-trash-outline" @click.native="handleRemove1()"></Icon>
+            </div>
+          </template>
+        </div>
+        <Upload
+          ref="upload"
+          :show-upload-list="false"
+          :on-success="handleSuccess1"
+          :format="['jpg','jpeg','png']"
+          :max-size="2048"
+          :on-format-error="handleFormatError"
+          :on-exceeded-size="handleMaxSize"
+          :before-upload="handleBeforeUpload"
+          multiple
+          type="drag"
+          :action="baseURL"
+          style="display: inline-block;width:58px;" v-if="!this.formPartners.pictures">
+          <div style="width: 58px;height:57px;line-height: 58px;" v-if="!this.formPartners.pictures">
+            <Icon type="ios-camera" size="20"></Icon>
+          </div>
+        </Upload>
+      </FormItem>
+
+      <Modal title="查看图片" v-model="visible1">
+        <img :src=" getImageUrl(imageUrl)" v-if="visible1" style="width: 100%;height:200px;">
+      </Modal>
+
+
+
       <FormItem label="备注" :label-width="100" prop="banner">
         <Input type="text" v-model="formPartners.banner" placeholder="备注"/>
       </FormItem>
@@ -85,6 +122,7 @@
     name: 'Edit',
 
     components: {richText},
+
     props: {
       value: {
         type: Boolean,
@@ -97,7 +135,7 @@
     },
     data () {
       return {
-
+        visible1: false,
         visible: false,
         imageUrl: '',
         cityList:[],
@@ -108,8 +146,8 @@
           cover:'',
           createdate:'',
           pkid:'',
-          banner:''
-
+          banner:'',
+          pictures:''
         },
         ruleValidate: {
 
@@ -160,6 +198,27 @@
           this.formPartners.cover = ''
         })
       },
+
+
+
+      handleSuccess1 (res, file) {
+        this.spinShow = false
+        this.formPartners.pictures = res.filePath
+      },
+      handleView1 (imgUrl) {
+        this.imageUrl = imgUrl
+        this.visible1 = true
+      },
+      handleRemove1() {
+        this.spinShow = true
+        let url = this.formPartners.pictures
+        delImage({'url': url}).then(res => {
+
+          this.spinShow = false
+          this.formPartners.pictures = ''
+        })
+      },
+
       getImageUrl (url) {
         return this.$config.urlPath + url
       },

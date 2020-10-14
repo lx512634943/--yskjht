@@ -46,7 +46,7 @@ public class IViewController extends SoJController {
 	 * 获取页面显示数量
 	 */
 	public Integer pageSize() {
-		return getParaToInt("pageSize");
+			return getParaToInt("pageSize");
 	}
 	
 	

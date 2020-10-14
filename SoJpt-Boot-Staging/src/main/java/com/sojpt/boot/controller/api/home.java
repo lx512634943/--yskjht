@@ -1,9 +1,7 @@
 package com.sojpt.boot.controller.api;
 
 import com.sojpt.boot.ui.iview.IViewController;
-import com.sojpt.model.News;
-import com.sojpt.model.Partners;
-import com.sojpt.model.Slideshow;
+import com.sojpt.model.*;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -33,7 +31,7 @@ public class home extends IViewController {
      */
     @RequestMapping("/news")
     public void news() {
-        List<News>  list =News.dao.find("select * from news");
+        List<News>  list =News.dao.find("SELECT newsindex.id,newsindex.pictures,news.title,news.outline,newsindex.newsid FROM newsindex JOIN news on news.id=newsindex.newsid   ");
         renderSuccess(list);
 
     }
@@ -42,7 +40,44 @@ public class home extends IViewController {
      */
     @RequestMapping("/partners")
     public  void list(){
-        List<Partners> partners=Partners.dao.find("select * from  partners");
+        List<Partners> partners=Partners.dao.find("select * from  partners_index");
         renderSuccess(partners);
+    }
+
+    /**
+     * 项目案例
+     */
+    @RequestMapping("/cases")
+    public  void cases(){
+        List<ProjectCases> projectCases =ProjectCases.dao.find("select  * from project_cases");
+        renderSuccess(projectCases);
+
+    }
+    /**
+     * 公司业务
+     */
+    @RequestMapping("/business")
+    public  void business(){
+        List<Business> businesses=Business.dao.find ("select  * from  business");
+        renderSuccess(businesses);
+    }
+    /**
+     * 公司业务虚浮
+     */
+    @RequestMapping("/businessBYid")
+    public  void businessBYid(){
+        Integer id=getInt("id");
+        List<Business> businesses=Business.dao.find("SELECT businessById.picture,business.businessBytitle FROM businessById JOIN business on businessById.businessId=business.id WHERE businessById.businessId=?",id);
+        renderSuccess(businesses);
+    }
+
+    /**
+     * 水环境质量地图展示
+     */
+    @RequestMapping("/quality")
+    public  void quality(){
+
+        List<Quality> businesses=Quality.dao.find("SELECT *FROM quality");
+        renderSuccess(businesses);
     }
 }

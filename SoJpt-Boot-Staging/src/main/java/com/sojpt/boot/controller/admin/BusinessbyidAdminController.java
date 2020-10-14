@@ -86,7 +86,7 @@ public class BusinessbyidAdminController extends IViewController {
         renderJson(Ret.ok());
         return;
     }
-
+    @RequestMapping("save")
     public void save() {
         BusinessById businessbyid = getModel(BusinessById.class, "businessbyid");
 
@@ -96,7 +96,6 @@ public class BusinessbyidAdminController extends IViewController {
             renderJson(Ret.fail());
         }
     }
-
 
     @RequestMapping("update")
     public void update() {
@@ -108,7 +107,7 @@ public class BusinessbyidAdminController extends IViewController {
 
         }
     }
-
+    @RequestMapping("delete")
     public void delete() {
         BusinessById businessbyid = getModel(BusinessById.class, "businessbyid");
         if(BusinessById.dao.deleteById(businessbyid.getId())) {

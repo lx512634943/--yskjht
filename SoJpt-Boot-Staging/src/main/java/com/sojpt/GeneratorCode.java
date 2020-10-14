@@ -8,6 +8,7 @@ import com.jfinal.kit.PropKit;
 import com.jfinal.plugin.activerecord.dialect.MysqlDialect;
 import com.jfinal.plugin.activerecord.generator.Generator;
 import com.jfinal.plugin.druid.DruidPlugin;
+import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 import com.sojpt.metabuilder.MysqlSojptMetaBuilder;
 
 /**
@@ -25,6 +26,7 @@ public class GeneratorCode {
 		return dp.getDataSource();
 	}
 	public static void main(String[] args) {
+
 		// base model 所使用的包名
 		String baseModelPackageName = "com.sojpt.model.base";
 		// base model 文件保存路径

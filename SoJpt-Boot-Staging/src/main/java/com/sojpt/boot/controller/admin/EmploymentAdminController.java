@@ -1,5 +1,7 @@
 package com.sojpt.boot.controller.admin;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
@@ -11,11 +13,15 @@ import com.jfinal.plugin.activerecord.Db;
 import com.jfinal.plugin.activerecord.Page;
 import com.jfinal.plugin.activerecord.Record;
 import com.jfinal.plugin.activerecord.SqlPara;
+import com.jfinal.upload.UploadFile;
 import com.sojpt.boot.intercepter.admin.AdminLoginInterceptor;
 import com.sojpt.boot.intercepter.admin.AdminPopedomInterceptor;
 import com.sojpt.boot.ui.iview.IViewController;
+import com.sojpt.kit.FileCopyKit;
+import com.sojpt.kit.IdKit;
 import com.sojpt.model.Employment;
 import com.sojpt.model.Icons;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -68,6 +74,42 @@ public class EmploymentAdminController extends IViewController {
         } else {
             renderJson(Ret.fail());
         }
+    }
+    @Value("${arp.base-upload-path}")
+    private String path;
+    /**
+     * 上传图片
+     *
+     * @throws IOException
+     */
+    @RequestMapping("upload")
+    public void upload() throws IOException {
+        UploadFile file = getFile();
+        //存储路径
+        String filePath = path + "/images/all";
+        String fileName = file.getFileName();
+        System.out.println(fileName+"+++++++++++++++++++++++++++-+++++++++++++++++++++++++++");
+        if (!new File(filePath).exists()) {
+            new File(filePath).mkdirs();
+        }
+        //更换图片名称
+        File file1 = new File(filePath + "/" + IdKit.generatorID() + fileName.substring(fileName.indexOf(".")));
+        FileCopyKit.fileCopy(file.getFile(), file1);
+        //删除临时文件
+        file.getFile().delete();
+        renderJson(Ret.ok("filePath", "all/" + file1.getName()));
+        return;
+    }
+
+    //删除图片
+    @RequestMapping("delImage")
+    public void delMatchImage() throws IOException {
+        String url = getPara("url");
+        String filepath = path + "/images/" + url;
+        File file = new File(filepath);
+        file.delete();
+        renderJson(Ret.ok());
+        return;
     }
     @RequestMapping("update")
     public void update() {
